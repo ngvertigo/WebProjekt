@@ -1,11 +1,11 @@
 # Website Konzept
 
-## Grundidee
+## Kurzbeschreibung der Organisation
 
-## Zielgruppe
+## Ziele des Projektes
 
-## Umfang und Funktionen
+## Zielgruppen und deren Bedürfnisse
 
-## Design und Accessibility
+## Funktionen der Website
 
-## Technologien für Aufbau
+## Sitemap
