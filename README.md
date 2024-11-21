@@ -15,6 +15,8 @@
 - README.md           # Projekt Outline/Dokumentation
 - CONTRIBUTING.md     # Regeln/Guideline für die Arbeit am Projekt
 
+- (.gitkeep als Platzhalter für leere Ordner, löschen wenn Datei in Ordner erstellt wird)
+
 ### Aufbau Konzept
 #### Erster Meilenstein (Zwischenergebnis)
 1) Kurzbeschreibung der Organisation
