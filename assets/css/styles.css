@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+}
+
+li, a {
+    text-decoration: none;
+    color: hsl(0, 0%, 85%);
+}
+
+nav {
+    margin: 0px 0px 20px 0px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 15%);
+}
