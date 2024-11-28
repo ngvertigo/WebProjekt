@@ -1,3 +1,42 @@
+html {
+    /** Resize the text responsively, with min and max sizes  **/
+    font-size: clamp(1rem, 0.75rem + 0.3vw, 2rem);
+}
+
+body {
+    /** CHECK  **/
+    min-height: 100vh;
+}
+
+scroll-indicator {
+
+}
+
+main {
+    /** Push footer to bottom **/
+    min-height: calc(90vh - 20px - 1rem);
+}
+
+footer {
+    height: 10vh;
+    background-color: lightgray;
+}
+
+.search::placeholder {
+    opacity: 0.5;
+}
+
+article {
+    /** character limit for text line **/
+    max-inline-size: 66ch;
+    line-height: 1.5;
+}
+
+blockquote {
+    max-inline-size: 45ch;
+    line-height: 1.9;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -17,6 +56,6 @@ li, a {
 
 nav {
     margin: 0px 0px 20px 0px;
-    padding: 10px;
+    padding: 2vh 1rem;
     background-color: hsl(0, 0%, 15%);
 }

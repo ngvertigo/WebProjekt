@@ -57,5 +57,8 @@ Docs:
 - https://www.w3schools.com/
 - Studip Webtech PDFs
 
+CSS
+- Sizing https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-css-units
+
 Validator:
 - https://validator.w3.org/
