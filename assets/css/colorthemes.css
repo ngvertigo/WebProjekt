@@ -1,0 +1,46 @@
+/** Color definitions/names directly used **/
+
+/** Fallback Theme **/
+:root {
+    --primary-background: #ffffffff;
+    --background-nav: hsl(0, 0%, 15%);
+    --background-footer: lightgray;
+    --text-color: hsl(0, 0%, 85%);
+    --link-hover: hsl(30, 100%, 50%);
+    --theme-toggle-icon:  hsl(0, 0%, 85%);
+}
+
+[theme="light"] {
+    --primary-background: #ffffffff;
+    --background-nav: hsl(0, 0%, 15%);
+    --background-footer: lightgray;
+    --text-color: hsl(0, 0%, 85%);
+    --link-hover: hsl(30, 100%, 50%);
+    --theme-toggle-icon:  hsl(0, 0%, 85%);
+}
+
+[theme="dark"] {
+    --primary-background: gray;
+    --background-nav: hsl(0, 0%, 15%);
+    --background-footer: hsl(0, 0%, 15%);
+    --text-color: hsl(0, 0%, 85%);
+    --link-hover: hsl(30, 100%, 50%);
+    --theme-toggle-icon:  hsl(0, 0%, 85%);
+}
+
+/**
+The colors maintain a 4.5:1 contrast ratio, complying with WCAG 2.1 | Level AA.
+**/
+[theme="dracula"] {
+    --background: #282A36;
+    --current-line: #44475A;
+    --foreground: #F8F8F2;
+    --comment: #6272A4;
+    --cyan: #8BE9FD;
+    --green: #50FA7B;
+    --orange: #FFB86C;
+    --pink: #FF79C6;
+    --purple: #BD93F9;
+    --red: #FF5555;
+    --yellow: #F1FA8C;
+}

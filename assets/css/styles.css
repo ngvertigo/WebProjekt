@@ -1,25 +1,35 @@
 html {
     /** Resize the text responsively, with min and max sizes  **/
     font-size: clamp(1rem, 0.75rem + 0.3vw, 2rem);
+
 }
 
 body {
     /** CHECK  **/
     min-height: 100vh;
+    background-color: var(--primary-background);
 }
 
 scroll-indicator {
 
 }
 
+nav {
+    margin-bottom: 5vh;
+    padding: 1.5rem 1rem;
+    background-color: var(--background-nav);
+}
+
 main {
     /** Push footer to bottom **/
     min-height: calc(90vh - 20px - 1rem);
+    margin: 0 10vw;
 }
 
 footer {
     height: 10vh;
-    background-color: lightgray;
+    margin-top: 5vh;
+    background-color: var(--background-footer);
 }
 
 .search::placeholder {
@@ -38,24 +48,31 @@ blockquote {
 }
 
 ul {
+    display: inline;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 li {
-    list-style: none;
     display: inline;
     margin: 20px;
 }
 
-li, a {
+a {
     text-decoration: none;
-    color: hsl(0, 0%, 85%);
+    color: var(--text-color);
 }
 
-nav {
-    margin: 0px 0px 20px 0px;
-    padding: 2vh 1rem;
-    background-color: hsl(0, 0%, 15%);
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: unset;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--link-hover);
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 0;
 }
