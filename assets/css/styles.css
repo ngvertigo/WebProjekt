@@ -8,6 +8,7 @@ body {
     /** CHECK  **/
     min-height: 100vh;
     background-color: var(--primary-background);
+    color: var(--text-color);
 }
 
 scroll-indicator {
@@ -15,9 +16,16 @@ scroll-indicator {
 }
 
 nav {
+    display: flex;
     margin-bottom: 5vh;
     padding: 1.5rem 1rem;
     background-color: var(--background-nav);
+    justify-content: center;
+}
+
+nav > ul:nth-child(2) {
+    margin: 0;
+    margin-left: auto;
 }
 
 main {
@@ -48,9 +56,9 @@ blockquote {
 }
 
 ul {
-    display: inline;
+    /** display: inline; **/
+    margin: 0 0 0 auto;
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
 
@@ -71,8 +79,17 @@ a:hover {
     text-decoration-color: var(--link-hover);
 }
 
-button {
+#theme-menu {
+    display: block;
+}
+
+.theme-toggle {
+    color: var(--text-color);
     border: none;
     background: none;
     padding: 0;
+}
+
+.theme-toggle:hover {
+    background: blue;
 }

@@ -12,9 +12,9 @@
 
 [theme="light"] {
     --primary-background: #ffffffff;
-    --background-nav: hsl(0, 0%, 15%);
+    --background-nav: lightgray;
     --background-footer: lightgray;
-    --text-color: hsl(0, 0%, 85%);
+    --text-color: #000;
     --link-hover: hsl(30, 100%, 50%);
     --theme-toggle-icon:  hsl(0, 0%, 85%);
 }
@@ -43,4 +43,10 @@ The colors maintain a 4.5:1 contrast ratio, complying with WCAG 2.1 | Level AA.
     --purple: #BD93F9;
     --red: #FF5555;
     --yellow: #F1FA8C;
+
+    --primary-background: var(--background);
+    --background-nav: var(--current-line);
+    --background-footer: var(--current-line);
+    --text-color: var(--foreground);
+    --link-hover: var(--comment);
 }
