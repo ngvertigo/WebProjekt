@@ -18,24 +18,11 @@
     <meta name="author" content="Nils">
   </head>
 
+<!-- TODO: Set base url -->
+
   <body>
     <!-- Navbar  -->
-    <nav>
-      <ul>
-        <li><a href="index.html">Startseite</a></li>
-        <li><a href="shop/shop.html">Shop</a></li>
-        <li><a href="wiki/wiki.html">Wiki</a></li>
-        <li><a href="#">Warenkorb</a></li>
-        <li><a href="#">Suche </a><input class="search" placeholder="Suche eingeben..."></input></li>
-      </ul>
-      <ul id="theme-menu">
-        <li><button id="theme-toggle" onclick="switch_theme('light');">Light</button></li>
-        <li><button id="theme-toggle" onclick="switch_theme('dark');">Dark</button></li>
-        <li><button id="theme-toggle" onclick="switch_theme('dracula');">Dracula</button></li>
-      </ul>
-      <div> <!--TODO: Scroll Indicator -->
-      </div>
-    </nav>
+    <?php include "assets/templates/nav.php"?>
 
     <main>
       <h1>News</h1>
@@ -80,8 +67,6 @@
         Ipsum consequatur vero dolore ullam saepe nesciunt doloremque. Nostrum impedit velit eos. Rerum est aliquid et. Reiciendis et qui magnam. Culpa sed aut sed excepturi doloremque.</p>
     </main>
 
-    <footer>
-      FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER
-    </footer>
+    <?php include "assets/templates/footer.php" ?>
   </body>
 </html>
