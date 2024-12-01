@@ -1,8 +1,8 @@
 <nav>
     <ul>
-        <li><a href="index.html">Startseite</a></li>
-        <li><a href="/shop/shop.php">Shop</a></li>
-        <li><a href="wiki/wiki.html">Wiki</a></li>
+        <li><a href="/">Startseite</a></li>
+        <li><a href="/shop">Shop</a></li>
+        <li><a href="/wiki">Wiki</a></li>
         <li><a href="#">Warenkorb</a></li>
         <li><a href="#">Suche </a><input class="search" placeholder="Suche eingeben..."></input></li>
     </ul>

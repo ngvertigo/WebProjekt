@@ -1,3 +1,7 @@
+/** import normalize and themes directly in main stylesheet **/
+@import "modern-normalize.css";
+@import "colorthemes.css";
+
 html {
     /** Resize the text responsively, with min and max sizes  **/
     font-size: clamp(1rem, 0.75rem + 0.3vw, 2rem);
@@ -100,4 +104,41 @@ a:hover {
 
 .theme-toggle:hover {
     background: blue;
+}
+
+#page404 {
+    body {
+        margin: 0;
+        background-color: var(--404-primary-background);
+        color:  var(--404-text-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+    }
+    div {
+        border: 1px solid  var(--404-border-color);
+        padding: 40px;
+        max-width: 600px;
+        width: 90%;
+    }
+    h1 {
+        font-size:  var(--404-header-font-size);
+        margin-bottom: 20px;
+        color:  var(--404-accent-color);
+    }
+    p {
+        margin-bottom: 30px;
+    }
+    a {
+        color:  var(--404-text-color);
+        text-decoration: none;
+        border-bottom: 1px solid  var(--404-border-color);
+        padding-bottom: 2px;
+    }
+    a:hover {
+        color:  var(--);
+        background-color:  var(--404-accent-color);
+    }
 }

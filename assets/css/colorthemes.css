@@ -2,12 +2,23 @@
 
 /** Fallback Theme **/
 :root {
+    /** home.php **/
     --primary-background: #ffffffff;
     --background-nav: hsl(0, 0%, 15%);
     --background-footer: lightgray;
     --text-color: hsl(0, 0%, 85%);
     --link-hover: hsl(30, 100%, 50%);
     --theme-toggle-icon:  hsl(0, 0%, 85%);
+
+
+    /** 404.php **/
+    --404-primary-background: var(--primary-background);
+    --404-text-color: var(--text-color);
+    --404-accent-color: #c9b037;
+    --404-border-color: #555555;
+    --404-font-size: 18px;
+    --404-header-font-size: 36px;
+    --404-font-family: ;
 }
 
 [theme="light"] {
