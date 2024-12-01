@@ -21,6 +21,7 @@ nav {
     padding: 1.5rem 1rem;
     background-color: var(--background-nav);
     justify-content: center;
+    /** TODO: better sizing to not resize because of dropdown menu  **/
 }
 
 nav > ul:nth-child(2) {
@@ -80,10 +81,17 @@ a:hover {
 }
 
 #theme-menu {
+    display: inline-block;
+    position: relative;
+}
+
+#theme-menu:hover > li {
     display: block;
+    background-color: white;
 }
 
 .theme-toggle {
+    display: none;
     color: var(--text-color);
     border: none;
     background: none;

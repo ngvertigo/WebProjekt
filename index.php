@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" theme="dark">
+<html lang="de" theme="light">
   <!-- Metainformation about the Page  -->
   <head>
     <title>The Witcher Item Shop</title>
