@@ -1,6 +1,6 @@
 /** import normalize and themes directly in main stylesheet **/
-@import "modern-normalize.css";
-@import "colorthemes.css";
+@import "/assets/css/modern-normalize.css";
+@import "/assets/css/colorthemes.css";
 
 html {
     /** Resize the text responsively, with min and max sizes  **/
@@ -139,7 +139,7 @@ nav > #nav-link-container > a:hover {
 }
 
 #page404 {
-    body {
+    & body {
         margin: 0;
         background-color: var(--404-primary-background);
         color:  var(--404-text-color);
@@ -149,27 +149,27 @@ nav > #nav-link-container > a:hover {
         height: 100vh;
         text-align: center;
     }
-    div {
+    & div {
         border: 1px solid  var(--404-border-color);
         padding: 40px;
         max-width: 600px;
         width: 90%;
     }
-    h1 {
+    & h1 {
         font-size:  var(--404-header-font-size);
         margin-bottom: 20px;
         color:  var(--404-accent-color);
     }
-    p {
+    & p {
         margin-bottom: 30px;
     }
-    a {
+    & a {
         color:  var(--404-text-color);
         text-decoration: none;
         border-bottom: 1px solid  var(--404-border-color);
         padding-bottom: 2px;
     }
-    a:hover {
+    & a:hover {
         color:  var(--);
         background-color:  var(--404-accent-color);
     }

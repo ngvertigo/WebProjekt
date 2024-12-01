@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html id="page404" theme="">
     <head>
-        <title>404 - Page Not Found</title>
-        <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+        <?php
+        $title = "Error 404 - Page not found";
+        include "assets/templates/head.php";
+        ?>
     </head>
     <body>
         <div>
