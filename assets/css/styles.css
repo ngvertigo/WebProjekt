@@ -22,15 +22,33 @@ scroll-indicator {
 nav {
     display: flex;
     margin-bottom: 5vh;
-    padding: 1.5rem 1rem;
+    width: 100%;
+    height: 4.5rem;
     background-color: var(--background-nav);
     justify-content: center;
-    /** TODO: better sizing to not resize because of dropdown menu  **/
 }
 
-nav > ul:nth-child(2) {
+nav > #nav-link-container {
+    display: flex;
+    position: relative;
+    flex: 1;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    overflow: hidden;
     margin: 0;
-    margin-left: auto;
+    padding: 1.5rem;
+}
+
+nav > #nav-link-container > a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 0 1rem;
+    align-items: center;
+}
+
+nav > #nav-link-container > input {
+    font-size: var(--font-size);
 }
 
 main {
@@ -62,22 +80,12 @@ blockquote {
 
 ul {
     /** display: inline; **/
-    margin: 0 0 0 auto;
+    margin: 0 auto 0 auto;
     list-style-type: none;
     padding: 0;
 }
 
-li {
-    display: inline;
-    margin: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: var(--text-color);
-}
-
-a:hover {
+nav > #nav-link-container > a:hover {
     text-decoration: underline;
     text-decoration-style: unset;
     text-decoration-thickness: 3px;
@@ -85,25 +93,49 @@ a:hover {
 }
 
 #theme-menu {
-    display: inline-block;
-    position: relative;
+    display: relative;
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 1.5rem;
+    border: 1px solid transparent;
 }
 
-#theme-menu:hover > li {
+#theme-menu .dropdown {
+    display: none;
+    position: absolute;
+    background-color: var(--primary-background);
+    padding: 0;
+    margin-top: 8px;
+    list-style: none;
+    border: 1px solid var(--border-color, #ccc);
+    min-width: 100px;
+}
+
+#theme-menu:hover {
+    cursor: pointer;
+    border: 1px solid var(--border-color, #ccc);
+}
+
+#theme-menu:hover > .dropdown {
     display: block;
-    background-color: white;
 }
 
 .theme-toggle {
-    display: none;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 10px;
     color: var(--text-color);
     border: none;
     background: none;
-    padding: 0;
+    text-align: left;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
 }
 
 .theme-toggle:hover {
-    background: blue;
+    background-color: var(--link-hover, #eee);
 }
 
 #page404 {

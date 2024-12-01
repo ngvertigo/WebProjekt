@@ -2,23 +2,17 @@
 <html lang="de" theme="light">
   <!-- Metainformation about the Page  -->
   <head>
-    <title>The Witcher Item Shop</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
-    <script src="assets/js/scripts.js"></script>
-    <meta charset="UTF-8">
-    <!-- Viewport for responsive design  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- TODO: Add keywords for Landing Page  -->
-    <meta name="keywords" content="Witcher 3, Shop, Items">
-    <!-- TODO: Description  -->
-    <meta name="description" content="Witcher 3 Item Shop Landing Page">
-    <meta name="author" content="Nils">
+      <?php
+      $title = "The Witcher 3 Shop | Landing Page";
+      $keywords = "Witcher 3, Shop, Items";
+      $desc = "Witcher 3 Item Shop Landing Page";
+      include "assets/templates/head.php";
+      ?>
   </head>
 
   <body>
     <!-- Navbar  -->
-    <?php include "assets/templates/nav.php"?>
+    <?php include "assets/templates/nav.php"; ?>
 
     <main>
       <h1>News</h1>

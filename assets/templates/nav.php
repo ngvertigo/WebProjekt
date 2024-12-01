@@ -1,17 +1,26 @@
 <nav>
-    <ul>
-        <li><a href="/">Startseite</a></li>
-        <li><a href="/shop">Shop</a></li>
-        <li><a href="/wiki">Wiki</a></li>
-        <li><a href="#">Warenkorb</a></li>
-        <li><a href="#">Suche </a><input class="search" placeholder="Suche eingeben..."></input></li>
-    </ul>
-    <ul id="theme-menu">
-        <span>Themes</span>
-        <li><button class="theme-toggle" onclick="switch_theme('light');">Light</button></li>
-        <li><button class="theme-toggle" onclick="switch_theme('dark');">Dark</button></li>
-        <li><button class="theme-toggle" onclick="switch_theme('dracula');">Dracula</button></li>
-    </ul>
-    <div> <!--TODO: Scroll Indicator -->
+    <div id="nav-link-container">
+        <a href="/">Startseite</a>
+        <a href="/shop">Shop</a>
+        <a href="/wiki">Wiki</a>
+        <a href="#">Warenkorb</a>
+        <input placeholder="Suche eingeben..."></input>
     </div>
+    <div id="theme-menu">
+        <span>Themes</span>
+        <ul class="dropdown">
+            <?php
+            // dynamically add themes to dropdown menu
+            $themes = [
+                "light", "dark", "dracula", "gruvbox"
+            ];
+
+            foreach($themes as $theme) {
+                echo "<li><button class=\"theme-toggle\" onclick=\"switch_theme('$theme');\">" . ucfirst($theme) . "</button></li>";
+            }
+            ?>
+        </ul>
+    </div>
+<!--    <div> <!--TODO: Scroll Indicator -->
+    <!--    </div> -->
 </nav>

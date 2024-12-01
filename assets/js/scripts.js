@@ -2,10 +2,10 @@
  * Apply theme on every page automatically
  */
 document.addEventListener("DOMContentLoaded", () => {
-    // Apply theme saved in session storage or default apply light if none saved
-    switch_theme(sessionStorage.getItem("theme") || "light")
+    // Apply theme saved in session storage or use user preferred theme (else fallback light theme)
+    let pref_theme = window?.watchMedia?.("(prefers-color-scheme:dark)")?.matches ? "dark" : "light";
+    switch_theme(sessionStorage.getItem("theme") || pref_theme);
 })
-
 
 /**
  * Takes a String and checks if theme exists, then changes the theme attribute in <html> tag accordingly.
@@ -19,6 +19,7 @@ function switch_theme(whichtheme) {
     case "light":
     case "dark":
     case "dracula":
+    case "gruvbox":
         elem.setAttribute("theme", whichtheme);
         sessionStorage.setItem("theme", whichtheme);
         break;
