@@ -1,6 +1,7 @@
 <!-- Default head -->
 
 <title><?php echo htmlspecialchars($title) ?></title>
+<!-- Import stylesheets (CSS) and scripts (JS) -->
 <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
 <link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico">
 <script src="/assets/js/scripts.js"></script>
@@ -12,4 +13,3 @@
 <!-- TODO: Description  -->
 <meta name="description" content="<?php echo htmlspecialchars($desc) ?>">
 <meta name="author" content="Nils">
-<script>let WAIT_FOR_SCRIPT_LOADING;</script>

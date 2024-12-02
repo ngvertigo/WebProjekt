@@ -10,13 +10,13 @@ switch ($request_uri) {
         include "home.php";
         break;
     case "/shop":
-        require $_SERVER["DOCUMENT_ROOT"] . "/shop/shop.php";
+        include "shop/shop.php";
         break;
-    case "/wiki":
-        include $_SERVER["DOCUMENT_ROOT"] . "/wiki/wiki.php";
+    case "wiki":
+        include "wiki/wiki.php";
         break;
     default:
-        include $_SERVER["DOCUMENT_ROOT"] . "/assets/templates/404.php";
+        include "assets/templates/404.php";
         break;
 }
 

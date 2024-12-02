@@ -5,6 +5,8 @@
 html {
     /** Resize the text responsively, with min and max sizes  **/
     font-size: clamp(1rem, 0.75rem + 0.3vw, 2rem);
+    /** disable overscrolling the page **/
+    overscroll-behavior-y: none;
 
 }
 
@@ -53,8 +55,19 @@ nav > #nav-link-container > input {
 
 main {
     /** Push footer to bottom **/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     min-height: calc(90vh - 20px - 1rem);
-    margin: 0 10vw;
+}
+
+main > article {
+    display: flex;
+    flex-direction: column;
+}
+
+main > article > h1 {
+
 }
 
 footer {
@@ -69,6 +82,11 @@ footer {
 
 article {
     /** character limit for text line **/
+    max-inline-size: 66ch;
+    line-height: 1.5;
+}
+
+p {
     max-inline-size: 66ch;
     line-height: 1.5;
 }
