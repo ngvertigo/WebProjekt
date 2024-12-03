@@ -10,10 +10,10 @@ switch ($request_uri) {
         include "home.php";
         break;
     case "/shop":
-        include "shop/shop.php";
+        include "pages/shop.php";
         break;
-    case "wiki":
-        include "wiki/wiki.php";
+    case "/wiki":
+        include "pages/wiki.php";
         break;
     default:
         include "assets/templates/404.php";

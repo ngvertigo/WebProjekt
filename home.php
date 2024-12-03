@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="de" theme="light">
+<html lang="de" theme="dracula">
   <!-- Metainformation about the Page  -->
-  <head>
-      <?php
-      $title = "The Witcher 3 Shop | Landing Page";
-      $keywords = "Witcher 3, Shop, Items";
-      $desc = "Witcher 3 Item Shop Landing Page";
-      include "assets/templates/head.php";
-      ?>
-  </head>
-
-  <body>
+    <head>
+        <?php
+        $title = "The Witcher 3 Shop | Landing Page";
+        $keywords = "Witcher 3, Shop, Items";
+        $desc = "Witcher 3 Item Shop Landing Page";
+        include "assets/templates/head.php";
+        ?>
+    </head>
+    <!-- Displayed content -->
+    <body>
       <!-- Navbar  -->
       <?php include "assets/templates/nav.php"; ?>
 

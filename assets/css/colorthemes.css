@@ -4,9 +4,9 @@
 :root {
     --primary-background: #f9f9f9;
     --background-nav: #e8e8e8;
-    --background-footer: #dcdcdc;
+    --background-footer: #1c1b1a;
     --text-color: #333333;
-    --link-hover: #007acc;
+    --link-hover: #d4af37;
     --border-color: #cccccc;
     --theme-toggle-icon: #444444;
     --statusline-bg1: #e0e0e0;
@@ -32,6 +32,16 @@
     --404-font-size: 18px;
     --404-header-font-size: 36px;
     --404-font-family: ;
+
+    /** footer template **/
+    --footer-text-color: #ebdbb2;
+    --footer-border-color: #665c54;
+    --footer-accent-color: #d4af37;
+    --footer-input-background: #3c3836;
+    --footer-input-text-color: #f9f9f9;
+    --footer-button-background: #504945;
+    --footer-button-text-color: #f9f9f9;
+    --footer-heading-font: 'Cinzel', serif;
 }
 
 [theme="light"] {

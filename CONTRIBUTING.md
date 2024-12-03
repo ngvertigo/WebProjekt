@@ -38,6 +38,12 @@
 - 3/6 concept pages (PDF, answer questions from example document)
 
 
-# DEADLINES
+## DEADLINES
 * First milestone (06.12.): Static prototype (4 pages), conceptual document (3 pages), both validating and zipped as instructed
 * Final milestone (20.01.): Full website (~10 pages), advanced JS and PHP functionality, final document (max 6 pages)
+
+# Adding Features
+
+## Add a new Theme
+- Create theme in [[file:/assets/css/colorthemes.css][colorthemes.css]] using the :root color variables
+- Add the theme name in the [[file:/assets/templates/nav.php][nav.php]] $themes variable
