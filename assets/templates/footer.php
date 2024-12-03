@@ -5,17 +5,18 @@
         <div class="footer-section newsletter">
             <h2>Subscribe to Our Newsletter</h2>
             <form action="#" method="post" class="newsletter-form">
-                <input type="email" name="email" placeholder="Enter your raven's destination" required>
-                <button type="submit">Subscribe</button>
+                <input class="type-input" type="email" name="email" placeholder="Enter your raven's destination" required>
+                <button id="footer-sub-button" type="submit">Abonnieren</button>
             </form>
         </div>
 
         <!-- About us / Contact -->
         <div class="footer-section links">
-            <h2>Discover More</h2>
+            <h2>Weitere</h2>
             <ul>
-                <li><a href="/contact">Contact Us</a></li>
-                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Kontakt</a></li>
+                <li><a href="/about">Über uns</a></li>
+                <li><a href="/gdpr">Datenschutz</a></li>
             </ul>
         </div>
 

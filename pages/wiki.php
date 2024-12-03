@@ -3,13 +3,15 @@
     <head>
         <?php
         $title = "Wiki | The Witcher 3";
-        $keywords = "Shop";
-        $desc = "Shop";
+        $keywords = "Wiki";
+        $desc = "Wiki";
         include "assets/templates/head.php"; ?>
     </head>
     <body>
+        <?php include "assets/templates/nav.php"; ?>
         <main>
-            <?php include "assets/templates/nav.php"; ?>
+
         </main>
+        <?php include "assets/templates/footer.php" ?>
     </body>
 </html>

@@ -4,7 +4,9 @@
         <a href="/shop">Shop</a>
         <a href="/wiki">Wiki</a>
         <a href="#">Warenkorb</a>
-        <input placeholder="Suche eingeben..."></input>
+        <form action="#" method="post" class="search-form">
+            <input class="type-input" type="text" name="search" placeholder="Suche eingeben..." required>
+        </form>
     </div>
     <div id="theme-menu">
         <span>Themes</span>

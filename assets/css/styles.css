@@ -2,12 +2,57 @@
 @import "/assets/css/modern-normalize.css";
 @import "/assets/css/colorthemes.css";
 
+/** Cinzel Font **/
+@font-face {
+    font-family: "Cinzel";
+    src: url("/assets/fonts/CinzelDecorative-Black.ttf");
+    font-weight: normal;
+    font-style: italic;
+    /** italic ??? **/
+}
+@font-face {
+    font-family: "Cinzel";
+    src: url("/assets/fonts/CinzelDecorative-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cinzel";
+    src: url("/assets/fonts/CinzelDecorative-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/** Witcher Font **/
+@font-face {
+    font-family: "Witcher";
+    src: url("/assets/fonts/Thewitcher-jnOj.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/** Other Font **/
+@font-face {
+    font-family: "PTN";
+    src: url("/assets/fonts/PTC55F.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/** FFGoodPro-Medium **/
+@font-face {
+    font-family: "FFG";
+    src: url("/assets/fonts/FFGoodPro-Medium.woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html {
     /** Resize the text responsively, with min and max sizes  **/
     font-size: clamp(1rem, 0.75rem + 0.3vw, 2rem);
     /** disable overscrolling the page **/
     overscroll-behavior-y: none;
-
 }
 
 body {
@@ -22,6 +67,8 @@ scroll-indicator {
 }
 
 nav {
+    position: sticky;
+    top: 0%;
     display: flex;
     margin-bottom: 5vh;
     width: 100%;
@@ -49,39 +96,64 @@ nav > #nav-link-container > a {
     align-items: center;
 }
 
-nav > #nav-link-container > input {
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.type-input {
     font-size: var(--font-size);
+    padding: 10px;
+    border: 2px solid #5e442c;
+    border-radius: 5px;
+    background: #1c1c1c;
+    color: #d4c5a2; /* Neutral gold text */
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.type-input::placeholder {
+    color: #7d6a51; /* Faded gold placeholder */
+}
+
+.type-input:focus {
+    border-color: #c29252; /* Glowing effect */
 }
 
 main {
     /** Push footer to bottom **/
+    font-family: "PTN";
+    font-size: 1.1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: calc(90vh - 20px - 1rem);
 }
 
-main > article {
-    display: flex;
-    flex-direction: column;
+.main-headline {
+    font-family: "Witcher";
+    font-size: 3rem;
 }
 
-main > article > h1 {
-
+.main-sub-headline {
+    font-family: "Cinzel";
+    font-size: 2rem;
 }
 
 .search::placeholder {
     opacity: 0.5;
 }
 
-article {
+.main-article {
+    display: flex;
+    flex-direction: column;
     /** character limit for text line **/
-    max-inline-size: 66ch;
+    max-inline-size: 85ch;
     line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 p {
-    max-inline-size: 66ch;
     line-height: 1.5;
 }
 
@@ -208,6 +280,10 @@ nav > #nav-link-container > a:hover {
     font-family: var(--footer-heading-font);
 }
 
+#footer-sub-button {
+    margin-top: 10px;
+}
+
 footer {
 
 
@@ -234,20 +310,6 @@ footer {
     & .newsletter-form {
         display: flex;
         flex-direction: column;
-    }
-
-    & .newsletter-form input[type="email"] {
-        padding: 10px;
-        margin-bottom: 10px;
-        background-color: var(--footer-input-background);
-        color: var(--footer-input-text-color);
-        border: 1px solid var(--footer-border-color);
-        border-radius: 4px;
-    }
-
-    & .newsletter-form input::placeholder {
-        color: var(--footer-input-text-color);
-        opacity: 0.7;
     }
 
     & .newsletter-form button {

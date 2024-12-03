@@ -8,8 +8,13 @@
         include "assets/templates/head.php"; ?>
     </head>
     <body>
+        <?php include "assets/templates/nav.php"; ?>
         <main>
-            <?php include "assets/templates/nav.php"; ?>
+            <section class="shop-section">
+                <h1 class="main-headline">Witcher 3 Item Shop</h1>
+                <h4>Showing {} Items</h4>
+            </section>
         </main>
+        <?php include "assets/templates/footer.php" ?>
     </body>
 </html>

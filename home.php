@@ -14,9 +14,12 @@
       <!-- Navbar  -->
       <?php include "assets/templates/nav.php"; ?>
 
-      <main>
-          <article>
-              <h1>News</h1>
+        <main>
+            <section>
+                <h1 class="main-headline">Willkommen im Witcher 3 Item Shop</h1>
+            </section>
+          <article class="main-article">
+              <h2 class="main-sub-headline">News</h2>
               <p>Ea aut velit ea. Inventore facere aut et. Harum occaecati qui voluptatibus sunt ut voluptatem debitis. Ut enim a facere necessitatibus mollitia mollitia nemo maxime. Quia libero voluptatem soluta.
 
                   Quibusdam enim nemo in quo pariatur modi omnis. Sunt ut et aut repellat architecto aut. Officia consectetur quis laboriosam.
@@ -27,8 +30,8 @@
 
                   Ipsum consequatur vero dolore ullam saepe nesciunt doloremque. Nostrum impedit velit eos. Rerum est aliquid et. Reiciendis et qui magnam. Culpa sed aut sed excepturi doloremque.</p>
           </article>
-          <article>
-              <h1>Shop Articles</h1>
+          <article class="main-article">
+              <h2 class="main-sub-headline">Shop Caroussel (NEW, TOP)</h2>
               <p>Ea aut velit ea. Inventore facere aut et. Harum occaecati qui voluptatibus sunt ut voluptatem debitis. Ut enim a facere necessitatibus mollitia mollitia nemo maxime. Quia libero voluptatem soluta.
 
                   Quibusdam enim nemo in quo pariatur modi omnis. Sunt ut et aut repellat architecto aut. Officia consectetur quis laboriosam.
@@ -39,8 +42,8 @@
 
                   Ipsum consequatur vero dolore ullam saepe nesciunt doloremque. Nostrum impedit velit eos. Rerum est aliquid et. Reiciendis et qui magnam. Culpa sed aut sed excepturi doloremque.</p>
           </article>
-          <article>
-              <h1>Kürzlich gekauft</h1>
+          <article class="main-article">
+              <h2 class="main-sub-headline">Kürzlich gekauft</h2>
               <p>Ea aut velit ea. Inventore facere aut et. Harum occaecati qui voluptatibus sunt ut voluptatem debitis. Ut enim a facere necessitatibus mollitia mollitia nemo maxime. Quia libero voluptatem soluta.
 
                   Quibusdam enim nemo in quo pariatur modi omnis. Sunt ut et aut repellat architecto aut. Officia consectetur quis laboriosam.
@@ -51,8 +54,8 @@
 
                   Ipsum consequatur vero dolore ullam saepe nesciunt doloremque. Nostrum impedit velit eos. Rerum est aliquid et. Reiciendis et qui magnam. Culpa sed aut sed excepturi doloremque.</p>
           </article>
-          <article>
-              <h1>Das könnte Dich interessieren</h1>
+          <article class="main-article">
+              <h2 class="main-sub-headline">Angebote und Rabatte</h2>
               <p>Ea aut velit ea. Inventore facere aut et. Harum occaecati qui voluptatibus sunt ut voluptatem debitis. Ut enim a facere necessitatibus mollitia mollitia nemo maxime. Quia libero voluptatem soluta.
 
                   Quibusdam enim nemo in quo pariatur modi omnis. Sunt ut et aut repellat architecto aut. Officia consectetur quis laboriosam.
