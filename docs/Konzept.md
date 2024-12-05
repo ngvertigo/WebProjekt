@@ -1,118 +1,103 @@
 # Designkonzept für The Witcher 3 Ingame Item Shop
 
 ## Kurzbeschreibung der Organisation
-Der Auftragsgeber CD Projekt S.A., mit Sitz in Polen, ist ein Entwickler und Publisher von Computerspielen für den internationalen Markt. Das Unternehmen ist bekannt für seine immersiven und umfangreichen Rollenspiele, darunter Spiele wie die The Witcher Serie und Cyberpunk 2077, welche weltweit für massive Verkaufszahlen sorgten und von der Kritik sehr gelobt wurden.
-Dabei ist The Witcher 3 besonders bekannt für seine spannende Story, welche dem Spiel schnell den Kult-Status in der RPG-Community erlangte.
+Unser Auftragsgeber CD Projekt S.A., mit Sitz in Polen, ist ein der führenden Entwickler und Publisher von Computerspielen für den internationalen Markt. Bekannt für immersive und umfangreiche Rollenspiele wie die The Witcher Reihe, sowie Cyberpunk 2077, erziehlte das Unternehmen weltweit massive Verkaufszahlen und wurde von der Kritik hoch gelobt. Dabei erlangte The Witcher 3 besonderen Kultstatus in der RPG-Community aufgrund seiner spannenden Story. Um das Spielerlebnis nun weiter zu verbessern, plant CD Projekt die Einführung eines Ingame Item Shop für The Witcher 3.
 
 ## Ziele des Projektes
-Das Ziel des Shops ist der Verkauf von virtuellen Gegenständen, die Spieler in der Witcher-Ingamewelt verwenden können, um ihr Spiel optisch anzupassen oder um Spielfortschritt zu erlangen. Dabei bietet der Shop Artikel aus verschiedenen Kategorien im Spiel an: Waffen, Rüstungen, Tränke.
-Zudem bietet die Webseite auch einzelne Wikibeiträge über die Spielgegenstände, um Spieler zu Informieren und diesen vergleiche zwischen möglichen Ausrüstungskombinationen zu bieten.
-Dadurch steigert der Shop die Nutzererfahrung mit dem Spiel und erlaubt ein intuitives und unkompliziertes Spielerlebnis, bei dem sich jeder Spieler sein Herausforderungslevel selber anpassen kann.
+Das primäre Ziel des Shops ist der Verkauf von virtuellen Gegenständen, die Spieler in der The Witcher Ingamewelt verwenden können, um ihr Spielerlebnis anzupassen, sei es durch kosmetische Änderungen, für erleichterten Spielfortschritt oder um bei dem Fortschritt der Mitspieler mitzuhalten. Dabei bietet der Shop Artikel aus verschiedenen Kategorien an, darunter Waffen, Rüstungen und Tränke.
+Zusätzlich dient die Webseite auch als Informationsplattform mit Wikibeiträgen über die einzelnen Spielgegenstände, um Spielern Informationen und Vergleiche zwischen möglichen Ausrüstungskombinationen zu bieten.
+Durch diesen Aufbau soll die Nutzererfahrung gesteigert werden und ein intuitives und unkompliziertes Spielerlebnis geschaffen werden, bei dem sich jeder Spieler sein persönliches Herausforderungslevel einstellen kann.
 
 ## Zielgruppen und deren Bedürfnisse
-Jedoch spricht The Witcher 3 auch eine sehr breite Zielgruppe an und enthält neben Storyabschnitten auch schwere Bosskämpfe. Diese könnten für Leute mit weniger Freizeit oder für Leute mit Beeinträchtigung für Frustration sorgen oder zum Spielabbruch führen. Dabei spricht der Shop primär RPG-Spieler an, welche schnell und unkompliziert Spielitems kaufen wollen, primär Neulinge, um zeitintensive Spielphasen zu vereinfachen oder um den Spielfortschritt mit Freunden mitzuhalten. Dabei spricht der Shop auch erfahrenere Spieler an, welche präzise Informationen zu Spielgegenständen haben wollen und gezielt bestimmte Gegenstände suchen. Zudem umfasst die Zielgruppe auch Spieler mit Beeinträchtigungen, für die die vorgegebenen Spielitems nicht ausreichend sind und welche auf zusätzliche Hilfsmittel angewiesen sind. Daneben spricht der Shop auch Spieler an, welche sich für Kosmetische Items interessieren, darunter vor allem Sammler, und das Aussehen ihres Spielcharakters durch nicht erspielbare Charakterskins anpassen möchten.
-Breiter gefasst, spricht der Shop alle Spieler an, die sich aus spielerischen oder kometischen Gründen Items für das Spiel The Witcher 3 kaufen möchten.
 
-Bedürfnisse der Zielgruppen dabei sind:
-- **Personen mit Beeinträchtigung**
-  - Benutzerfreundliche und Barrierefreie Webseite
-- **Neulinge**
-  - Benutzerfreundliches intuitives Design, mit selbsterklärender Benutzerführung
-- **Erfahrene Spieler**
-  - Detaillierte und spezifische Angaben mit Filteroptionen nach Item Attributen wie Schaden, Gewicht und Preis
-- **Sammler**
-  - Visuell ansprechendes Design mit Vorschaubildern für (kosmetische) Gegestände und Skins
+### Zielgruppen und deren Bedürfnisse:
+**Neulinge und Gelegenheitsspieler**
+Neulinge und Gelegenheitsspieler benötigen eine einfache Navigation und eine intuitive Benutzeroberfläche um sich schnell und einfach zurechtzufinden. Sie wollen ihr Spielerlebnis und ihren Spielfortschritt durch die Angebotenen Spielgegenstände verbessern oder um mit ihren Freunden mithalten zu können.
+
+**Erfahrene Spieler**
+Erfahrene Spieler benötigen detaillierte Informationen zu den Spielgegenständen, sowie eine erweiterte Such- und Filterfunktion um die gewünschten Artikel gezielt zu finden.
+
+**Personen mit Beeinträchtigung**
+Personen mit Beeinträchtigungen benötigen eine barrierefreie Webseite, welche Screenreader unterstützt, anpassbare Schriftgrößen und Kontraste erlaubt und unterstützt. Sie wollen ebenfalls ihr Spielerlebnis und ihren Spielfortschritt verbessern und profitieren ebenfalls von einer übersichtlichen Wiki.
+
+**Sammler**
+Sammler interessieren sich für exklusive kosmetische Items und erwarten hochwertige Vorschaubilder und die Möglichkeit einzigartige Charakteranpassungen zu erwerben. Zudem ist eine News Sektion, welche neue Artikel im Shop ankündigt, besonders praktisch für Sammler von seltenen Spielgegenständen.
+
+**Eltern und Erziehungsberechtige**
+Eltern und Erziehungsberechtigte brauchen sichere Zahlungsfunktionen, Informationen über die kaufbaren Artikel, sowie Bewertungen der einzelnen Artikel. Sie erwarten ein seriöses Auftreten und Informationen zu Impressum und Datenschutz/rechtlichem.
 
 ## Funktionen der Website
 
 ### Grundfunktionen
-**Shop Funktionen**
-Der Shop bietet die Möglichkeit nach Spielgegenständen zu suchen, diese zu filtern, zu sortieren und zum Kaufen in den Warenkorb zu legen. Zu den angebotenen Artikel gibt es eine bildliche Darstellung der Artikel, eine Beschreibung des Gegenstands, sowie eine Auflistung der Attribute mit gegebenfalls einer Erklärung dieser, sowie der Artikelpreis.
+**Startseite**
+- News rund ums Spiel und die Community.
+- Einblick in die Top-Verkäufe aus dem Shop und in die eigens zuvor bestellten Artikel.
 
-### Erweiterte Funktionen
+**Shop Funktionen**
+- Produktsuche und Filter: Möglichkeit, nach Spielgegenständen zu suchen, zu filtern und zu sortieren.
+
+**Produktseiten**
+- Detaillierte Informationen zu jedem Artikel mit Bildern, Beschreibung und Attributen.
+
+**Warenkorb**
+- Hinzufügen von Artikeln zum Warenkorb und Bearbeitung von diesem.
+
+**Kaufabwicklung**
+- Bestellformular mit visueller Bestellbestätigung für einen sicheren Einkauf.
+
+### Zusätzliche Funktionen
 **Wiki Integration**
-Die eingebundene Wiki bietet zusätzliche Detailseiten mit Hintergrundinformationen zu den Items und zeigt einer detailliertere Beschreibung zu diesen.
+- Zugriff auf ausführliche Wikibeiträge für ausführliche Informationen zu den Items.
 
 **Interaktive Suche**
-Eine interaktive Suche zeigt dynamische Ergebnisse während der Eingabe an, um eine übersichtlichere und intuitive Suche zu bieten.
+- Dynamische Anzeige von Suchergebnissen während der Eingabe.
 
-### Technische Umsetzung
-Für die dynamische und einheitliche Umsetzung der Artikelseiten, sowie der Detailseiten wird PHP verwendet.
-Für interaktive Features, wie der Warenkorb und die Kauffunktionen verwenden wir JavaScript, sowie für optische Animationen.
-Das Responsive Layout wird mit CSS realisiert um die HTML Basis optisch zu verschönern und ansprechend darzustellen.
-Tastatursteuerung: Taste für bestimmte Auswahl
+**Barrierefreiheit**
+- Funktionen wie Tastatursteuerung und anpassbare Farbgebung für Benutzer mit besonderen Bedürfnissen, sowie weitere einstellbare Optionen.
 
-### Gestalterische Umsetzung
-Anpassbare Farbgebung, einheitliches Farbschema, für Farbblinde und custom Themes -> Farben als Ressource in CSS.
-Button Hover und Klickbestätigung, Hyperlinks unter Beschreibung (kein "Klicke Hier"), wichtige Elemente optisch hervorheben (Preis, Filter, Warenkorb), sekundäre Informationen (bspw. Beschreibungen dezent halten),
+**Personalisierung**
+- Anpassbare Themes und einen Nachtmodus für ein individuelles Nutzererlebnis.
 
+## Informationen zur Gestaltung
+
+**Intuitive Navigation**
+- Die Navigationsleiste bleibt konstant sichtbar, um es den Nutzern zu ermöglichen jederzeit auf verschiedene Bereiche der Webseite zugreifen zu können
 
 ## Sitemap
-""" Skizze """
 
-navbar/footer auf jeder Seite
+- **Startseite**
+  - **Hauptbereich**
+    - Aktuelle News zu Updates, neuen Spielgegenständen oder Rabatten und Angeboten
+    - Kaufhistorie und Top-Empfehlungen
 
-Startseite:
-navbar = {Startseite, Shop (Waffen, Rüstungen, Tränke), Wiki, Warenkorb, Kontakt, Nachtmodus, Suche}
-main   = {News zum Spiel, Vorgeschlagene/Top Artikel, Bestellhistorie/Erneut kaufen}
-footer = {Impressum/Datenschutz, Newsletter (für neue Items), Social Media}
+- **Shop**
+  - **Waffen**
+    - z.B. Schwerter, …
+  - **Rüstungen**
+    - z.B. Leichte/Schwere Rüstungen, …
+  - **Tränke**
+    - z.B. Heiltränke, …
+  - Suchfunktionen innerhalb des Shops
+  - Filter- und Sortieroptionen
 
-navbar:
-- Logo (mit oder ohne "Startseite")
-- Links...
-- Shop mit Dropdownmenu
-- Tag-/Nachtmodus
-- Seitensuche mit direkter Texteingabe
-- (Scrollt mit?)
-- Einstellungen für Barrierefreiheit im Dropdownmenu (Farbblindenmodus, (Screenreader?), ...)
+- **Wiki**
+  - Detaillierte Artikel zu Spielgegenständen
+  - Gruppierung der Gegenstände in Kategorien
+  - Such- und Filterfunktion
 
+- **Warenkorb**
+  - Auflistung und Übersicht der ausgewählten Artikel
+  - Berechnung des Gesamtpreises inkl. Steuern
+  - Bestellformular und Angebot sicherer Bezahlfunktionen (bspw. PayPal)
 
-main:
-- zentrierter auf die Mitte, leichter Seitenabstand
-- Überschriften und Kategorien mit Bildern
-- Kaufhistorie horizontal Scrollbar <->
-- About us, Why us, ...
-- Neues zur Seite/zum Spiel
+- **Kontakt**
+  - Kontaktformular mit Kategorien zu verschiedenen Problemen
+  - FAQs
 
-footer:
-- ganz unten an der Seite
-- Newsletter Email als direkter Textinput mit Abonnierbestätigung
-- Social Media Links
-- Impressum/Datenschutz(hinweise) Link
-- Lizenz zur Webseite und Spiel
+- **Impressum/Datenschutz**
+  - Rechtliche Hinweise
+  - Datenschutzerklärung
 
-
-Shop:
-navbar = {...}
-nav    = {Breadcrumbs für Kategorien: Shop > Waffen > Schwerter > Langschwert, dyn. Suche, Filter}
-main   = {Suchanzeige der Artikel mit Bild, Preis und Kurzbeschreibung}
-footer = {...}
-
-Wiki:
-navbar = {...}
-nav    = {Breadcrumbs, dyn. Suche}
-main   = {Kategorien mit Hyperlinks zu anderen Beiträgen, Top gesuchte Artikel}
-footer = {...}
-
-Warenkorb:
-navbar = {...}
-main   = {Auflistung der Artikel mit Gesamtpreis, Bestellformular (mit Spielername), Kauffunktion, Belegausstellung}
-footer = {...}
-
-Kontakt:
-navbar = {...}
-main   = {Auswahlkategorien (Problem, Frage, ...) mit dynamischem Kontaktformular}
-footer = {...}
-
-Impressum/Datenschutz:
-- Option 1)
-navbar = {...}
-main   = {Inhalt}
-footer = {...}
-- Option 2)
-Öffnen des Textes in neuem Tab oder Dateidownload (falls Seitenlimit erreicht)
-
-""" Skizze """
-
-### (Weitere Überlegungen)
-- Shop als Handelsplattform / Usermarkt => User bieten Items an
+- **Unterstützende Navigationselemente (auf jeder Seite zu finden)**
+  - Navbar: Startseite, Shop, Wiki, Warenkorb, Themes (Nachtmodus), Suche
+  - Footer: Impressum/Datenschutz, Newsletter-Anmeldung, Social Media Links, Einstellungen-Barrierefreiheit
