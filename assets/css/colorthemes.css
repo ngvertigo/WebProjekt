@@ -2,6 +2,10 @@
 
 /** Fallback Theme **/
 :root {
+    /** Use these new ones  **/
+
+
+    /** deprecated **/
     --primary-background: #f9f9f9;
     --background-nav: #e8e8e8;
     --background-footer: #1c1b1a;

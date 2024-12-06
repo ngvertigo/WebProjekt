@@ -2,6 +2,8 @@
 @import "/assets/css/modern-normalize.css";
 @import "/assets/css/colorthemes.css";
 
+/** BEGIN CUSTOM FONTS **/
+
 /** Cinzel Font **/
 @font-face {
     font-family: "Cinzel";
@@ -47,6 +49,9 @@
     font-style: normal;
 }
 
+/** END CUSTOM FONTS **/
+
+/** BEGIN BASE TAGS **/
 
 html {
     /** Resize the text responsively, with min and max sizes  **/
@@ -56,14 +61,9 @@ html {
 }
 
 body {
-    /** CHECK  **/
     min-height: 100vh;
     background-color: var(--primary-background);
     color: var(--text-color);
-}
-
-scroll-indicator {
-
 }
 
 nav {
@@ -76,6 +76,34 @@ nav {
     background-color: var(--background-nav);
     justify-content: center;
 }
+
+main {
+    /** Push footer to bottom **/
+    font-family: "PTN";
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(90vh - 20px - 1rem);
+}
+
+p {
+    line-height: 1.5;
+}
+
+blockquote {
+    max-inline-size: 45ch;
+    line-height: 1.9;
+}
+
+ul {
+    /** display: inline; **/
+    margin: 0 auto 0 auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+/** END BASE TAGS **/
 
 nav > #nav-link-container {
     display: flex;
@@ -120,16 +148,6 @@ nav > #nav-link-container > a {
     border-color: #c29252; /* Glowing effect */
 }
 
-main {
-    /** Push footer to bottom **/
-    font-family: "PTN";
-    font-size: 1.1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: calc(90vh - 20px - 1rem);
-}
-
 .main-headline {
     font-family: "Witcher";
     font-size: 3rem;
@@ -151,22 +169,6 @@ main {
     max-inline-size: 85ch;
     line-height: 1.5;
     margin-bottom: 20px;
-}
-
-p {
-    line-height: 1.5;
-}
-
-blockquote {
-    max-inline-size: 45ch;
-    line-height: 1.9;
-}
-
-ul {
-    /** display: inline; **/
-    margin: 0 auto 0 auto;
-    list-style-type: none;
-    padding: 0;
 }
 
 nav > #nav-link-container > a:hover {
@@ -284,9 +286,9 @@ nav > #nav-link-container > a:hover {
     margin-top: 10px;
 }
 
+
+/** TODO: DOES NOT VALIDATE **/
 footer {
-
-
     & .footer-container {
         display: flex;
         flex-wrap: wrap;
@@ -399,4 +401,238 @@ footer {
         max-width: 300px;
         margin: 0 auto;
     }
+}
+
+
+/** INTEGRATE **/
+
+/** INTEGRATE **/
+
+.main-section {
+    padding: 2rem;
+    background-color: var(--primary-background);
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+}
+
+.shop-functions-section {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+}
+
+.heading-shop-funktionen {
+    font-size: 1.8rem;
+    margin: 0 0 0.5rem 0;
+    color: var(--text-color);
+}
+
+.paragraph-description {
+    font-size: 1rem;
+    margin: 0;
+    color: var(--text-color);
+}
+
+.search-filter-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.form-search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+}
+
+.input-search {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    background-color: var(--footer-input-background);
+    color: var(--footer-input-text-color);
+}
+
+.input-search::placeholder {
+    color: var(--footer-input-text-color);
+    opacity: 0.7;
+}
+
+.button-search {
+    background-color: var(--footer-button-background);
+    color: var(--footer-button-text-color);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.button-search:hover {
+    background-color: var(--statusline-bg3);
+}
+
+.filters-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.filter-group-category,
+.filter-group-sort {
+    display: flex;
+    align-items: center;
+}
+
+.label-category,
+.label-sort {
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.select-category,
+.select-sort {
+    padding: 0.4rem;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    background-color: var(--statusline-bg1);
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+
+.option-category,
+.option-sort {
+    font-size: 0.9rem;
+}
+
+.products-list-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+}
+
+.product-item {
+    background-color: var(--statusline-bg1);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 1rem;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.product-name {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    color: var(--text-color);
+}
+
+.product-price {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin: 0.5rem 0;
+}
+
+.product-button {
+    background-color: var(--footer-button-background);
+    color: var(--footer-button-text-color);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.product-button:hover {
+    background-color: var(--statusline-bg3);
+}
+
+
+.wiki-main-section {
+    background-color: var(--primary-background);
+    color: var(--text-color);
+    font-family: sans-serif;
+    padding: 2rem;
+}
+
+.wiki-search-section {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+}
+
+.wiki-search-form {
+    display: flex;
+    max-width: 400px;
+}
+
+.wiki-search-button {
+    background-color: var(--footer-button-background);
+    color: var(--footer-button-text-color);
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.wiki-search-button:hover {
+    background-color: var(--statusline-bg3);
+}
+
+.wiki-main-section {
+    margin-top: 2rem;
+}
+
+.wiki-article {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--statusline-bg1);
+}
+
+.wiki-article-title,
+.wiki-article-h {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.wiki-article-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.wiki-article-h {
+    font-size: 1.4rem;
+}
+
+.wiki-article-p {
+    margin: 0 0 1rem 0;
+    line-height: 1.5;
+}
+
+.wiki-ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin: 0;
+}
+
+.wiki-ul-li {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
 }
