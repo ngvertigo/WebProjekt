@@ -696,3 +696,49 @@ footer {
 }
 
 /* END KONTAKT.PHP */
+
+/* barrierefreiheit.php */
+#accessibility-settings-form {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+#accessibility-settings-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#accessibility-settings-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    background-color: var(--input-background-color);
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+#accessibility-settings-form button {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#accessibility-settings-form button:hover {
+    background-color: var(--button-hover-background-color);
+}
+
+/* END BARRIEREFREIHEIT.PHP */

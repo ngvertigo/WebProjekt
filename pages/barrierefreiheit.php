@@ -16,54 +16,56 @@
     <?php include "assets/templates/nav.php"; ?>
 
 
-<main class="wiki-main-section">
-    <section class="wiki-search-section">
-        <h1 class="main-headline">Unser Team</h1>
-        <p class="intro-text">Lerne die Köpfe hinter dem Witcher 3 Item Shop kennen.</p>
+<main> 
+<main>
+    <section>
+        <h1 class="main-headline">Barrierefreiheitseinstellungen</h1>
     </section>
 
-    <!-- Steckbriefe -->
-    <div class="wiki-main-section">
-        <!-- Steckbrief 1 -->
-        <article class="wiki-article">
-            <h2 class="wiki-article-h">Nils</h2>
-            <p class="wiki-article-p">
-                <strong>Rolle:</strong> Gründer<br>
-                <strong>Stärken:</strong> Monsterjagd, Schwertkampf, Alchemie<br>
-                <strong>Hobbys:</strong> Reisen, Gwint spielen
-            </p>
-        </article>
+    <article class="main-article">
+        <form id="accessibility-settings-form" action="speichere_einstellungen.php" method="post">
+            <!-- Schriftgröße -->
+            <label for="font-size">Schriftgröße:</label>
+            <select id="font-size" name="font_size">
+                <option value="small">Klein</option>
+                <option value="medium" selected>Mittel</option>
+                <option value="large">Groß</option>
+            </select>
 
-        <!-- Steckbrief 2 -->
-        <article class="wiki-article">
-            <h2 class="wiki-article-h">Michael</h2>
-            <p class="wiki-article-p">
-                <strong>Rolle:</strong> Alchemistin<br>
-                <strong>Stärken:</strong> Heiltränke, Magie, diplomatisches Geschick<br>
-                <strong>Hobbys:</strong> Lesen, Kräuterkunde
-            </p>
-        </article>
+            <!-- Kontrastmodus -->
+            <label for="contrast-mode">Kontrastmodus:</label>
+            <select id="contrast-mode" name="contrast_mode">
+                <option value="normal" selected>Normal</option>
+                <option value="high-contrast">Hoher Kontrast</option>
+            </select>
 
-        <!-- Steckbrief 3 -->
-        <article class="wiki-article">
-            <h2 class="wiki-article-h">Sven</h2>
-            <p class="wiki-article-p">
-                <strong>Rolle:</strong> Marketing & Öffentlichkeitsarbeit<br>
-                <strong>Stärken:</strong> Redekunst, Kreativität, Musik<br>
-                <strong>Hobbys:</strong> Poesie schreiben, Lieder singen
-            </p>
-        </article>
+            <!-- Farbschema -->
+            <label for="color-scheme">Farbschema:</label>
+            <select id="color-scheme" name="color_scheme">
+                <option value="default" selected>Standard</option>
+                <option value="dark">Dunkel</option>
+                <option value="light">Hell</option>
+            </select>
 
-        <!-- Steckbrief 4 -->
-        <article class="wiki-article">
-            <h2 class="wiki-article-h">Leon</h2>
-            <p class="wiki-article-p">
-                <strong>Rolle:</strong> Waffenexperte<br>
-                <strong>Stärken:</strong> Schmiedekunst, Zwergenwaffen, Strategie<br>
-                <strong>Hobbys:</strong> Kartenspiele, Bierbrauen
-            </p>
-        </article>
-    </div>
+            <!-- Animationen -->
+            <label for="animations">Animationen:</label>
+            <select id="animations" name="animations">
+                <option value="enabled" selected>Aktiviert</option>
+                <option value="disabled">Deaktiviert</option>
+            </select>
+
+            <!-- Screenreader-Unterstützung -->
+            <label for="screenreader-support">Screenreader-Unterstützung:</label>
+            <select id="screenreader-support" name="screenreader_support">
+                <option value="enabled" selected>Aktiviert</option>
+                <option value="disabled">Deaktiviert</option>
+            </select>
+
+            <button type="submit">Einstellungen speichern</button>
+        </form>
+    </article>
+</main>
+
 </main>
 
 <?php include "assets/templates/footer.php" ?>
