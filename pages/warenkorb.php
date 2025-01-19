@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico">
     <script src="/assets/js/scripts.js"></script>
-    <script src="/assets/js/warenkorb.js"></script>
+    <script src="/assets/js/wk.js" defer></script>
     <meta charset="UTF-8">
     <!-- Viewport for responsive design  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

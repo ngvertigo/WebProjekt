@@ -6,6 +6,7 @@
         $keywords = "Shop";
         $desc = "Shop";
         include "assets/templates/head.php"; ?>
+        <script src="/assets/js/wk.js" defer></script>
     </head>
     <body>
         <?php include "assets/templates/nav.php"; ?>
