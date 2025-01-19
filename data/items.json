@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Stahlschwert",
+    "category": "Waffen",
+    "description": "Effektiv gegen Menschen und Tiere.",
+    "price": 20.00,
+    "image": "/assets/images/items/weapons/stahlschwert.png"
+  },
+  {
+    "id": 2,
+    "name": "Silberschwert",
+    "category": "Waffen",
+    "description": "Speziell gegen Monster.",
+    "price": 30.00,
+    "image": "/assets/images/items/weapons/silberschwert.png"
+  },
+  {
+    "id": 3,
+    "name": "Armbrust",
+    "category": "Waffen",
+    "description": "Für Fernkampfangriffe.",
+    "price": 25.00,
+    "image": "/assets/images/items/weapons/armbrust.png"
+  }
+
+]
