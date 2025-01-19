@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zxx" data-theme="Dark">
+<!-- VALIDATED -->
+
+<head>
+    <title>
+        Shop | The Witcher 3
+    </title>
+    <!-- Import stylesheets (CSS) and scripts (JS) -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <!-- Viewport for responsive design  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Shop, Items, The Witcher 3">
+    <meta name="description" content="The Witcher 3 Shop Seite">
+    <meta name="author" content="Nils, Michael, Sven">
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav>
+        <div id="nav-link-container">
+            <a href="index.html">Startseite</a>
+            <a href="shop.html">Shop</a>
+            <a href="wiki.html">Wiki</a>
+            <a href="warenkorb.html">Warenkorb</a>
+            <form action="#" method="post" class="search-form">
+                <input class="type-input" type="text" name="search" placeholder="Suche eingeben..." required>
+            </form>
+        </div>
+        <div id="theme-menu">
+            <span>Themes</span>
+            <ul class="dropdown">
+                <li><button class="theme-toggle" onclick="switch_theme('$theme');">Light</button></li>
+                <li><button class="theme-toggle" onclick="switch_theme('$theme');">Dark</button></li>
+                <li><button class="theme-toggle" onclick="switch_theme('$theme');">Gruvbox</button></li>
+                <li><button class="theme-toggle" onclick="switch_theme('$theme');">Dracula</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <h1 class="main-headline">Warenkorb</h1>
+        </section>
+
+        <article class="main-article">
+            <h2 class="main-sub-headline">Ihre ausgewählten Artikel</h2>
+            <div class="container">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Artikel</th>
+                            <th>Anzahl</th>
+                            <th>Preis</th>
+                            <th>Gesamt</th>
+                            <th>Aktion</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-items">
+                        <!-- Dynamisch generierte Warenkorb-Einträge -->
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" class="text-right">Zwischensumme:</td>
+                            <td id="subtotal">0.00 €</td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+                <div class="cart-actions">
+                    <a href="shop.html" class="button">Weiter einkaufen</a>
+                    <button id="checkout-button" class="button">Zur Kasse</button>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer id="site-footer">
+        <div class="footer-container">
+            <!-- Newsletter -->
+            <div class="footer-section newsletter">
+                <h2 class="footer-h2">Subscribe to Our Newsletter</h2>
+                <form action="#" method="post" class="newsletter-form">
+                    <input class="type-input" type="email" name="email" placeholder="Enter your raven's destination" required>
+                    <button class="footer-button" type="submit">Abonnieren</button>
+                </form>
+            </div>
+
+            <!-- About us / Contact -->
+            <div class="footer-section links">
+                <h2 class="footer-h2">Weitere</h2>
+                <ul class="footer-ul">
+                    <li class="footer-li"><a class="footer-a" href="404.html">Kontakt</a></li>
+                    <li class="footer-li"><a class="footer-a" href="404.html">Über uns</a></li>
+                    <li class="footer-li"><a class="footer-a" href="datenschutz.html">Datenschutz</a></li>
+                    <li class="footer-li"><a class="footer-a" href="404.html">Optionen</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-section social-media">
+                <h2 class="footer-h2">Socials</h2>
+                <ul class="footer-ul">
+                    <li class="footer-li"><a href="facebook.com" aria-label="Facebook"><img src="facebook.svg" alt="Facebook link" class="icon-facebook"></a></li>
+                    <li class="footer-li"><a href="twitter.com" aria-label="Twitter"><img src="twitter.svg" alt="Twitter link" class="icon-twitter"></a></li>
+                    <li class="footer-li"><a href="instagram.com" aria-label="Instagram"><img src="instagram.svg" alt="Instagram link" class="icon-instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartItemsContainer = document.getElementById('cart-items');
+            const subtotalElement = document.getElementById('subtotal');
+
+            function updateCart() {
+                cartItemsContainer.innerHTML = '';
+                let subtotal = 0;
+
+                cart.forEach(item => {
+                    const total = item.quantity * item.price;
+                    subtotal += total;
+
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${item.name}</td>
+                        <td><input type="number" min="1" value="${item.quantity}" data-id="${item.id}" class="quantity-input"></td>
+                        <td>${item.price.toFixed(2)} €</td>
+                        <td>${total.toFixed(2)} €</td>
+                        <td><button data-id="${item.id}" class="remove-button">Entfernen</button></td>
+                    `;
+                    cartItemsContainer.appendChild(row);
+                });
+
+                subtotalElement.textContent = `${subtotal.toFixed(2)} €`;
+            }
+
+            document.addEventListener('click', (e) => {
+                if (e.target.classList.contains('remove-button')) {
+                    const itemId = e.target.dataset.id;
+                    const index = cart.findIndex(item => item.id === itemId);
+                    if (index > -1) {
+                        cart.splice(index, 1);
+                        localStorage.setItem('cart', JSON.stringify(cart));
+                        updateCart();
+                    }
+                }
+            });
+
+            document.addEventListener('input', (e) => {
+                if (e.target.classList.contains('quantity-input')) {
+                    const itemId = e.target.dataset.id;
+                    const item = cart.find(item => item.id === itemId);
+                    if (item) {
+                        item.quantity = Math.max(1, parseInt(e.target.value, 10));
+                        localStorage.setItem('cart', JSON.stringify(cart));
+                        updateCart();
+                    }
+                }
+            });
+
+            updateCart();
+        });
+    </script>
+</body>
+</html>
