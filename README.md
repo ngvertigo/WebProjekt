@@ -1,5 +1,15 @@
 ## Einführung Webtechnologien Web Projekt
 
+## TODO  
+```
+- Fix redirects in footer
+- code in different files
+- fix theme toggle button
+- add keyboard control, colorblind theme/mode, screenreader support
+- add sitemap.xml to website
+- is navigation good and practical?
+```
+
 ### Projektstruktur
 ```
 ├ assets/                 # Statische assets (images, icons, ...)
