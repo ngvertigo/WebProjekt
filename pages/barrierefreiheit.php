@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Team, Steckbrief, The Witcher 3">
     <meta name="description" content="Unser Team stellt sich vor: Vier Mitglieder mit Leidenschaft für The Witcher 3.">
-    <meta name="author" content="Nils, Michael, Sven">
+    <meta name="author" content="Nils, Michael, Sven, Leon">
 </head>
 
 <body>

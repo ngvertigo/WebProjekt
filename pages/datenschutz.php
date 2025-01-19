@@ -17,7 +17,7 @@
     <meta name="keywords" content="Wiki, Information, The Witcher 3">
     <!-- TODO: Description  -->
     <meta name="description" content="The Witcher 3 Wiki Seite">
-    <meta name="author" content="Nils, Michael, Sven">
+    <meta name="author" content="Nils, Michael, Sven, Leon">
 </head>
 
 <body>

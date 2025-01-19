@@ -12,4 +12,4 @@
 <meta name="keywords" content="<?php echo htmlspecialchars($keywords) ?>">
 <!-- TODO: Description  -->
 <meta name="description" content="<?php echo htmlspecialchars($desc) ?>">
-<meta name="author" content="Nils">
+<meta name="author" content="Nils, Michael, Sven, Leon">
