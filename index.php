@@ -16,16 +16,16 @@ switch ($request_uri) {
         include "pages/wiki.php";
         break;
     case "/warenkorb":
-        include "pages/warenkorb.html";
+        include "pages/warenkorb.php";
         break;
     case "/impressum":
-        include "pages/impressum.html";
+        include "pages/impressum.php";
         break;
     case "/about":
-        include "pages/about.html";
+        include "pages/about.php";
         break;
     case "/datenschutz":
-        include "pages/datenschutz.html";
+        include "pages/datenschutz.php";
         break;
     default:
         include "assets/templates/404.php";
