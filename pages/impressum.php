@@ -13,15 +13,8 @@
 </head>
 
 <body>
-<nav>
-    <div id="nav-link-container">
-        <a href="index.html">Startseite</a>
-        <a href="shop.html">Shop</a>
-        <a href="wiki.html">Wiki</a>
-        <a href="warenkorb.html">Warenkorb</a>
-        <a href="impressum.html">Impressum</a>
-    </div>
-</nav>
+        <?php include "assets/templates/nav.php"; ?>
+
 
 <main class="wiki-main-section">
     <section class="wiki-search-section">
@@ -61,38 +54,6 @@
     </div>
 </main>
 
-<footer id="site-footer">
-    <div class="footer-container">
-        <!-- Newsletter -->
-        <div class="footer-section newsletter">
-            <h2 class="footer-h2">Subscribe to Our Newsletter</h2>
-            <form action="#" method="post" class="newsletter-form">
-                <input class="type-input" type="email" name="email" placeholder="Enter your raven's destination" required>
-                <button class="footer-button" type="submit">Abonnieren</button>
-            </form>
-        </div>
-
-        <!-- Links -->
-        <div class="footer-section links">
-            <h2 class="footer-h2">Weitere</h2>
-            <ul class="footer-ul">
-                <li class="footer-li"><a class="footer-a" href="404.html">Kontakt</a></li>
-                <li class="footer-li"><a class="footer-a" href="404.html">Über uns</a></li>
-                <li class="footer-li"><a class="footer-a" href="datenschutz.html">Datenschutz</a></li>
-                <li class="footer-li"><a class="footer-a" href="404.html">Optionen</a></li>
-            </ul>
-        </div>
-
-        <!-- Social Media -->
-        <div class="footer-section social-media">
-            <h2 class="footer-h2">Socials</h2>
-            <ul class="footer-ul">
-                <li class="footer-li"><a href="facebook.com" aria-label="Facebook"><img src="facebook.svg" alt="Facebook link" class="icon-facebook"></a></li>
-                <li class="footer-li"><a href="twitter.com" aria-label="Twitter"><img src="twitter.svg" alt="Twitter link" class="icon-twitter"></a></li>
-                <li class="footer-li"><a href="instagram.com" aria-label="Instagram"><img src="instagram.svg" alt="Instagram link" class="icon-instagram"></a></li>
-            </ul>
-        </div>
-    </div>
-</footer>
+<?php include "assets/templates/footer.php" ?>
 </body>
 </html>

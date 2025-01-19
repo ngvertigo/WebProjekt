@@ -27,3 +27,4 @@ function switch_theme(whichtheme) {
         console.log("[ERROR] No theme with name: " + whichtheme);
     }
 }
+
