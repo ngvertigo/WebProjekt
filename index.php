@@ -27,6 +27,15 @@ switch ($request_uri) {
     case "/datenschutz":
         include "pages/datenschutz.php";
         break;
+    case "/kontakt":
+        include "pages/kontakt.php";
+        break;
+    case "/sitemap":
+        include "pages/sitemap.xml";
+        break;
+    case "/barrierefreiheit":
+        include "pages/barrierefreiheit.php";
+        break;
     default:
         include "assets/templates/404.php";
         break;

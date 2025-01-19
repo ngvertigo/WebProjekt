@@ -12,12 +12,14 @@
     font-style: italic;
     /** italic ??? **/
 }
+
 @font-face {
     font-family: "Cinzel";
     src: url("/assets/fonts/CinzelDecorative-Bold.ttf");
     font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Cinzel";
     src: url("/assets/fonts/CinzelDecorative-Regular.ttf");
@@ -105,7 +107,7 @@ ul {
 
 /** END BASE TAGS **/
 
-nav > #nav-link-container {
+nav>#nav-link-container {
     display: flex;
     position: relative;
     flex: 1;
@@ -117,7 +119,7 @@ nav > #nav-link-container {
     padding: 1.5rem;
 }
 
-nav > #nav-link-container > a {
+nav>#nav-link-container>a {
     text-decoration: none;
     color: var(--text-color);
     padding: 0 1rem;
@@ -135,17 +137,20 @@ nav > #nav-link-container > a {
     border: 2px solid #5e442c;
     border-radius: 5px;
     background: #1c1c1c;
-    color: #d4c5a2; /* Neutral gold text */
+    color: #d4c5a2;
+    /* Neutral gold text */
     outline: none;
     transition: border 0.3s ease;
 }
 
 .type-input::placeholder {
-    color: #7d6a51; /* Faded gold placeholder */
+    color: #7d6a51;
+    /* Faded gold placeholder */
 }
 
 .type-input:focus {
-    border-color: #c29252; /* Glowing effect */
+    border-color: #c29252;
+    /* Glowing effect */
 }
 
 .main-headline {
@@ -171,7 +176,7 @@ nav > #nav-link-container > a {
     margin-bottom: 20px;
 }
 
-nav > #nav-link-container > a:hover {
+nav>#nav-link-container>a:hover {
     text-decoration: underline;
     text-decoration-style: unset;
     text-decoration-thickness: 3px;
@@ -202,7 +207,7 @@ nav > #nav-link-container > a:hover {
     border: 1px solid var(--border-color, #ccc);
 }
 
-#theme-menu:hover > .dropdown {
+#theme-menu:hover>.dropdown {
     display: block;
 }
 
@@ -228,36 +233,41 @@ nav > #nav-link-container > a:hover {
     & body {
         margin: 0;
         background-color: var(--404-primary-background);
-        color:  var(--404-text-color);
+        color: var(--404-text-color);
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
         text-align: center;
     }
+
     & div {
-        border: 1px solid  var(--404-border-color);
+        border: 1px solid var(--404-border-color);
         padding: 40px;
         max-width: 600px;
         width: 90%;
     }
+
     & h1 {
-        font-size:  var(--404-header-font-size);
+        font-size: var(--404-header-font-size);
         margin-bottom: 20px;
-        color:  var(--404-accent-color);
+        color: var(--404-accent-color);
     }
+
     & p {
         margin-bottom: 30px;
     }
+
     & a {
-        color:  var(--404-text-color);
+        color: var(--404-text-color);
         text-decoration: none;
-        border-bottom: 1px solid  var(--404-border-color);
+        border-bottom: 1px solid var(--404-border-color);
         padding-bottom: 2px;
     }
+
     & a:hover {
-        color:  var(--);
-        background-color:  var(--404-accent-color);
+        color: var(--);
+        background-color: var(--404-accent-color);
     }
 }
 
@@ -330,7 +340,7 @@ footer {
     }
 
     & .links ul,
-      .social-media ul {
+    .social-media ul {
         list-style: none;
         padding: 0;
         margin: 0;
@@ -339,13 +349,13 @@ footer {
     }
 
     & .links li,
-      .social-media li {
+    .social-media li {
         margin-bottom: 10px;
         margin-right: 20px;
     }
 
     & .links a,
-     .social-media a {
+    .social-media a {
         color: var(--footer-text-color);
         text-decoration: none;
     }
@@ -383,6 +393,7 @@ footer {
         content: url('/assets/images/icons/instagram.svg');
     }
 }
+
 /* Responsive Design ??? TODO*/
 @media (max-width: 768px) {
     .footer-container {
@@ -636,3 +647,52 @@ footer {
     margin-bottom: 0.5rem;
     color: var(--text-color);
 }
+
+
+/* kontakt.php */
+/* Kontaktformular-Stile */
+#contact-form {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    background-color: var(--input-background-color);
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+#contact-form button {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: var(--button-hover-background-color);
+}
+
+/* END KONTAKT.PHP */

@@ -3,6 +3,9 @@
 ## TODO  
 ```
 - FIX COLORS and THEME!!!
+- Better CSS color naming scheme
+- Fix input forms in nav/footer to follow theme
+- Fix Abonnieren button in footer color
 - code in different files
 - fix theme toggle button
 - add keyboard control, colorblind theme/mode, screenreader support => Barrierefreiheit Einstellungsseite
