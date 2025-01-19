@@ -2,11 +2,15 @@
 
 ## TODO  
 ```
+- FIX COLORS and THEME!!!
 - code in different files
 - fix theme toggle button
-- add keyboard control, colorblind theme/mode, screenreader support
+- add keyboard control, colorblind theme/mode, screenreader support => Barrierefreiheit Einstellungsseite
+- Fix title alignment to center (on some pages)
+- Fix responsive resizing
 - add sitemap.xml to website
 - is navigation good and practical?
+- WCAG2.1 compliance => WAVE Evaluation Tool Browser Addon(!)
 ```
 
 ### Projektstruktur
