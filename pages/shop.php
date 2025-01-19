@@ -37,24 +37,7 @@
                 </div>
 
                 <div class="products-list-section">
-                    <article class="product-item">
-                        <img class="product-image" src="TODO" alt="Stahlschwert">
-                        <h2 class="product-name">Stahlschwert</h2>
-                        <p class="product-price">200 Kronen</p>
-                        <button class="product-button">In den Warenkorb</button>
-                    </article>
-                    <article class="product-item">
-                        <img class="product-image" src="TODO" alt="Leder-Rüstung">
-                        <h2 class="product-name">Leder-Rüstung</h2>
-                        <p class="product-price">350 Kronen</p>
-                        <button class="product-button">In den Warenkorb</button>
-                    </article>
-                    <article class="product-item">
-                        <img class="product-image" src="TODO" alt="Schwalbe-Trank">
-                        <h2 class="product-name">Schwalbe-Trank</h2>
-                        <p class="product-price">50 Kronen</p>
-                        <button class="product-button">In den Warenkorb</button>
-                    </article>
+                    <?php include "assets/php/script_shop.php"; ?>
                 </div>
             </div>
         </main>
