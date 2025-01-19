@@ -2,18 +2,19 @@
 
 ## TODO  
 ```
-- FIX COLORS and THEME!!!
+- FIX COLORS and THEME!!! (style theme toggle button)
 - Better CSS color naming scheme
 - Fix input forms in nav/footer to follow theme
 - Fix Abonnieren button in footer color
 - code in different files
-- fix theme toggle button
 - add keyboard control, colorblind theme/mode, screenreader support => Barrierefreiheit Einstellungsseite
 - Fix title alignment to center (on some pages)
 - Fix responsive resizing
-- add sitemap.xml to website
-- is navigation good and practical?
 - WCAG2.1 compliance => WAVE Evaluation Tool Browser Addon(!)
+- Fill items.json file with items
+
+- WAITING:
+- sitemap.xml -> generate 
 ```
 
 ### Projektstruktur
