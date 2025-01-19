@@ -17,7 +17,11 @@
                 <li><a href="/kontakt">Kontakt</a></li>
                 <li><a href="/about">Über uns</a></li>
                 <li><a href="/datenschutz">Datenschutz</a></li>
+            </ul>
+            <ul>
+                <li><a href="/sitemap">Sitemap</a></li>
                 <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/barrierefreiheit">Barrierefreiheit</a></li>
             </ul>
         </div>
 

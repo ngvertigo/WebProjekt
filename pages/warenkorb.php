@@ -53,7 +53,7 @@
                 </table>
 
                 <div class="cart-actions">
-                    <a href="shop.html" class="button">Weiter einkaufen</a>
+                    <a href="/shop" class="button">Weiter einkaufen</a>
                     <button id="checkout-button" class="button">Zur Kasse</button>
                 </div>
             </div>

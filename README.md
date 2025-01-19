@@ -2,7 +2,6 @@
 
 ## TODO  
 ```
-- Fix redirects in footer
 - code in different files
 - fix theme toggle button
 - add keyboard control, colorblind theme/mode, screenreader support
