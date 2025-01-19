@@ -3,7 +3,7 @@
         <a href="/">Startseite</a>
         <a href="/shop">Shop</a>
         <a href="/wiki">Wiki</a>
-        <a href="#">Warenkorb</a>
+        <a href="/warenkorb">Warenkorb</a>
         <form action="#" method="post" class="search-form">
             <input class="type-input" type="text" name="search" placeholder="Suche eingeben..." required>
         </form>

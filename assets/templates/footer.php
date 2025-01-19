@@ -14,9 +14,10 @@
         <div class="footer-section links">
             <h2>Weitere</h2>
             <ul>
-                <li><a href="/contact">Kontakt</a></li>
+                <li><a href="/kontakt">Kontakt</a></li>
                 <li><a href="/about">Über uns</a></li>
-                <li><a href="/gdpr">Datenschutz</a></li>
+                <li><a href="/datenschutz">Datenschutz</a></li>
+                <li><a href="/impressum">Impressum</a></li>
             </ul>
         </div>
 
