@@ -801,3 +801,92 @@ pre {
     word-wrap: break-word;
     /* Für ältere Browser-Kompatibilität */
 }
+
+/* home.php carousel */
+#wrapper {
+    width: 100%;
+    max-width: 964px;
+    position: relative;
+    background-color: var(--background-nav);
+    /* Dunkler Hintergrund */
+    border: 2px solid var(--accent-color);
+    /* Goldene Umrandung */
+    padding: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    /* Mystischer Schatten */
+}
+
+#carousel {
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    /* Versteckt Scrollbar */
+}
+
+#carousel::-webkit-scrollbar {
+    display: none;
+    /* Versteckt Scrollbar */
+}
+
+#content {
+    display: grid;
+    grid-gap: 16px;
+    grid-auto-flow: column;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.item {
+    width: 180px;
+    height: 180px;
+    background: var(--statusline-bg2);
+    /* Grau/Goldene Kachel */
+    border: 1px solid var(--accent-color);
+    /* Goldene Rahmen */
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+    box-shadow: 0 0 15px var(--accent-color);
+    /* Leuchtender Effekt */
+}
+
+#prev,
+#next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--footer-button-background);
+    /* Dunkler Button */
+    border: 2px solid var(--accent-color);
+    /* Goldener Rahmen */
+    color: var(--footer-text-color);
+    /* Textfarbe */
+    padding: 12px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#prev:hover,
+#next:hover {
+    background: var(--link-hover);
+}
+
+#prev {
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    display: none;
+}
+
+#next {
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+/* END HOME.PHP */

@@ -7,7 +7,8 @@
         $keywords = "Witcher 3, Shop, Items";
         $desc = "Witcher 3 Item Shop Landing Page";
         include "assets/templates/head.php";
-        ?>
+?>
+        <script src="/assets/js/home.js" defer></script>
     </head>
     <!-- Displayed content -->
     <body>
@@ -39,17 +40,37 @@
           </article>
           
           <article class="main-article">
-              <h2 class="main-sub-headline">Top Vorschläge</h2>
-              <p>Ea aut velit ea. Inventore facere aut et. Harum occaecati qui voluptatibus sunt ut voluptatem debitis. Ut enim a facere necessitatibus mollitia mollitia nemo maxime. Quia libero voluptatem soluta.
-
-                  Quibusdam enim nemo in quo pariatur modi omnis. Sunt ut et aut repellat architecto aut. Officia consectetur quis laboriosam.
-
-                  Aut et omnis quo soluta atque sint nemo incidunt. Nihil ut libero velit harum. Illo qui omnis saepe. Animi ipsum aliquid iste cumque assumenda sequi.
-
-                  Aut non quo minus commodi reiciendis nam et. Qui ut qui sint sunt corporis voluptates quae veniam. Voluptatem nisi nostrum sint. Et necessitatibus sed doloremque voluptatem est et. Exercitationem eligendi molestiae cumque illum sint et molestiae beatae. Deleniti voluptatem suscipit quidem nam iusto saepe.
-
-                  Ipsum consequatur vero dolore ullam saepe nesciunt doloremque. Nostrum impedit velit eos. Rerum est aliquid et. Reiciendis et qui magnam. Culpa sed aut sed excepturi doloremque.</p>
-          </article>
+              <h2 class="main-sub-headline">Kauf-Vorschläge</h2>
+                <p>Aktuelle Items im Shop:</p>
+                <div id="wrapper">
+         <div id="carousel">
+            <div id="content">
+<?php include "assets/php/script_home.php" ?>
+            </div>
+         </div>
+         <button id="prev">
+            <svg
+               xmlns="http://www.w3.org/2000/svg"
+               width="24"
+               height="24"
+               viewBox="0 0 24 24"
+               >
+               <path fill="none" d="M0 0h24v24H0V0z" />
+               <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+            </svg>
+         </button>
+         <button id="next">
+            <svg
+               xmlns="http://www.w3.org/2000/svg"
+               width="24"
+               height="24"
+               viewBox="0 0 24 24"
+               >
+               <path fill="none" d="M0 0h24v24H0V0z" />
+               <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+            </svg>
+         </button>
+      </div>          </article>
           <article class="main-article">
               <h2 class="main-sub-headline">Angebote und Rabatte</h2>
               <p>Zurzeit gibt es leider keine Angebote und Rabatte.</p>
