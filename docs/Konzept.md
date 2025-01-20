@@ -17,9 +17,6 @@ Neulinge und Gelegenheitsspieler benötigen eine einfache Navigation und eine in
 **Erfahrene Spieler**
 Erfahrene Spieler benötigen detaillierte Informationen zu den Spielgegenständen, sowie eine erweiterte Such- und Filterfunktion um die gewünschten Artikel gezielt zu finden.
 
-**Personen mit Beeinträchtigung**
-Personen mit Beeinträchtigungen benötigen eine barrierefreie Webseite, welche Screenreader unterstützt, anpassbare Schriftgrößen und Kontraste erlaubt und unterstützt. Sie wollen ebenfalls ihr Spielerlebnis und ihren Spielfortschritt verbessern und profitieren ebenfalls von einer übersichtlichen Wiki.
-
 **Sammler**
 Sammler interessieren sich für exklusive kosmetische Items und erwarten hochwertige Vorschaubilder und die Möglichkeit einzigartige Charakteranpassungen zu erwerben. Zudem ist eine News Sektion, welche neue Artikel im Shop ankündigt, besonders praktisch für Sammler von seltenen Spielgegenständen.
 
@@ -29,9 +26,6 @@ Eltern und Erziehungsberechtigte brauchen sichere Zahlungsfunktionen, Informatio
 ## Funktionen der Website
 
 ### Grundfunktionen
-**Startseite**
-- News rund ums Spiel und die Community.
-- Einblick in die Top-Verkäufe aus dem Shop und in die eigens zuvor bestellten Artikel.
 
 **Shop Funktionen**
 - Produktsuche und Filter: Möglichkeit, nach Spielgegenständen zu suchen, zu filtern und zu sortieren.
@@ -101,3 +95,7 @@ Eltern und Erziehungsberechtigte brauchen sichere Zahlungsfunktionen, Informatio
 - **Unterstützende Navigationselemente (auf jeder Seite zu finden)**
   - Navbar: Startseite, Shop, Wiki, Warenkorb, Themes (Nachtmodus), Suche
   - Footer: Impressum/Datenschutz, Newsletter-Anmeldung, Social Media Links, Einstellungen-Barrierefreiheit
+
+## **Barrierefreiheit**
+ Personen mit Beeinträchtigungen benötigen eine barrierefreie Webseite, welche Screenreader unterstützt, anpassbare Schriftgrößen und Kontraste erlaubt und unterstützt. Sie wollen ebenfalls ihr Spielerlebnis und ihren Spielfortschritt verbessern und profitieren 
+ ebenfalls von einer übersichtlichen Wiki.
