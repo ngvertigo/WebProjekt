@@ -306,6 +306,7 @@ nav>#nav-link-container>a:hover {
 
 #footer-sub-button {
     margin-top: 10px;
+    color: var(--text-color);
 }
 
 
@@ -991,39 +992,40 @@ pre {
 .type-input {
     flex: 1;
     padding: 0.8rem;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--input-border-color);
     border-radius: 4px;
-    background-color: var(--footer-input-background);
-    color: var(--footer-input-text-color);
+    background-color: var(--input-background);
+    color: var(--input-text-color);
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .type-input::placeholder {
-    color: var(--footer-input-text-color);
+    color: var(--input-text-color);
     opacity: 0.7;
 }
 
 .type-input:focus {
-    border-color: var(--accent-color);
-    box-shadow: 0 0 5px var(--accent-color);
+    border-color: var(--input-focus-border-color);
+    box-shadow: 0 0 5px var(--input-focus-border-color);
     outline: none;
 }
 
 .footer-button {
-    background-color: var(--footer-button-background);
-    color: var(--footer-button-text-color);
+    background-color: var(--button-background);
+    color: var(--button-text-color);
     padding: 0.8rem 1.2rem;
     font-size: 1rem;
-    border: none;
+    border: 1px solid var(--button-border-color);
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .footer-button:hover {
-    background-color: var(--accent-color);
+    background-color: var(--button-hover-background);
     transform: scale(1.05);
 }
+
 
 .filters-container {
     display: flex;

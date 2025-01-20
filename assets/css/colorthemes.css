@@ -37,6 +37,16 @@
 	--footer-button-background: #504945;
 	--footer-button-text-color: #f9f9f9;
 	--footer-heading-font: 'Cinzel', serif;
+
+	--input-background: var(--statusline-bg1);
+	--input-text-color: var(--text-color);
+	--input-border-color: var(--border-color);
+	--input-focus-border-color: var(--accent-color);
+
+	--button-background: var(--footer-button-background);
+	--button-text-color: var(--footer-button-text-color);
+	--button-border-color: var(--footer-border-color);
+	--button-hover-background: var(--accent-color);
 }
 
 [theme="light"] {
@@ -60,63 +70,101 @@
 	--visual-blue: #e3efff;
 	--visual-yellow: #fdf5d1;
 	--current-word-bg: #f0f0f0;
+
+	--input-background: #f9f9f9;
+	--input-text-color: #333333;
+	--input-border-color: #cccccc;
+	--input-focus-border-color: #007acc;
+
+	--button-background: #e8e8e8;
+	--button-text-color: #333333;
+	--button-border-color: #cccccc;
+	--button-hover-background: #007acc;
 }
 
 [theme="dark"] {
-	--primary-background: #000;
-	--background-nav: hsl(0, 0%, 15%);
-	--background-footer: hsl(0, 0%, 15%);
-	--text-color: hsl(0, 0%, 50%);
-	--link-hover: hsl(30, 100%, 50%);
-	--theme-toggle-icon: hsl(0, 0%, 85%);
-	--border-color: #cccccc;
+	--primary-background: #121212;
+	--background-nav: #1e1e1e;
+	--background-footer: #1e1e1e;
+	--text-color: #e0e0e0;
+	--link-hover: #ffa726;
+	--border-color: #424242;
+	--theme-toggle-icon: #bdbdbd;
+
+	/* Statuslinien */
+	--statusline-bg1: #1a1a1a;
+	/* Dunkler Hintergrund */
+	--statusline-bg2: #222222;
+	/* Etwas heller für Kontrast */
+	--statusline-bg3: #2c2c2c;
+	/* Abhebung für visuelle Hierarchie */
+
+	/* Diff und Visual Mode Farben */
+	--diff-green: #003300;
+	--diff-red: #330000;
+	--diff-blue: #002233;
+	--visual-green: #004d00;
+	--visual-red: #660000;
+	--visual-blue: #004466;
+	--visual-yellow: #665500;
+	--current-word-bg: #333333;
+
+	/* Inputs */
+	--input-background: #1f1f1f;
+	--input-text-color: #e0e0e0;
+	--input-border-color: #616161;
+	--input-focus-border-color: #ffa726;
+
+	/* Buttons */
+	--button-background: #333333;
+	--button-text-color: #e0e0e0;
+	--button-border-color: #616161;
+	--button-hover-background: #ffa726;
 }
+
 
 /**
 The colors maintain a 4.5:1 contrast ratio, complying with WCAG 2.1 | Level AA.
 **/
 [theme="dracula"] {
-	--background: #282A36;
-	--current-line: #44475A;
-	--foreground: #F8F8F2;
-	--comment: #6272A4;
-	--cyan: #8BE9FD;
-	--green: #50FA7B;
-	--orange: #FFB86C;
-	--pink: #FF79C6;
-	--purple: #BD93F9;
-	--red: #FF5555;
-	--yellow: #F1FA8C;
+	--primary-background: #282A36;
+	--background-nav: #383a59;
+	--background-footer: #383a59;
+	--text-color: #F8F8F2;
+	--link-hover: #50fa7b;
+	--border-color: #6272A4;
+	--theme-toggle-icon: #bd93f9;
 
-	--primary-background: var(--background);
-	--background-nav: var(--current-line);
-	--background-footer: var(--current-line);
-	--text-color: var(--foreground);
-	--link-hover: var(--comment);
-	--border-color: var(--cyan);
-}
+	/* Statuslinien */
+	--statusline-bg1: #44475a;
+	--statusline-bg2: #5a5d70;
+	--statusline-bg3: #6d7090;
 
-[theme="gruvbox"] {
-	/* Gruvbox Dark Theme */
-	--primary-background: #32302f;
-	--background-nav: #3c3836;
-	--background-footer: #504945;
-	--text-color: #ebdbb2;
-	--link-hover: #fabd2f;
-	--border-color: #665c54;
-	--theme-toggle-icon: #665c54;
-	--statusline-bg1: #3c3836;
-	--statusline-bg2: #46413e;
-	--statusline-bg3: #5b534d;
+	/* Diff und Visual Mode Farben */
+	--diff-green: #3a4d3a;
+	--diff-red: #4d3a3a;
+	--diff-blue: #3a3a4d;
+	--visual-green: #50fa7b33;
+	/* Transparente Dracula-Grün */
+	--visual-red: #ff555533;
+	/* Transparente Dracula-Rot */
+	--visual-blue: #6272a433;
+	/* Transparente Dracula-Blau */
+	--visual-yellow: #f1fa8c33;
+	/* Transparente Dracula-Gelb */
+	--current-word-bg: #6272a4;
 
-	--diff-green: #3d4220;
-	--diff-red: #472322;
-	--diff-blue: #0f3a42;
-	--visual-green: #424a3e;
-	--visual-red: #543937;
-	--visual-blue: #404946;
-	--visual-yellow: #574833;
-	--current-word-bg: #45403d;
+	/* Inputs */
+	--input-background: #44475a;
+	--input-text-color: #f8f8f2;
+	--input-border-color: #6272a4;
+	--input-focus-border-color: #bd93f9;
+
+	/* Buttons */
+	--button-background: #6272a4;
+	--button-text-color: #f8f8f2;
+	--button-border-color: #44475a;
+	--button-hover-background: #ff79c6;
 }
 
 [theme="barrierefrei"] {
@@ -140,4 +188,14 @@ The colors maintain a 4.5:1 contrast ratio, complying with WCAG 2.1 | Level AA.
 	--visual-blue: #404946;
 	--visual-yellow: #574833;
 	--current-word-bg: #45403d;
+
+	--input-background: #3c3836;
+	--input-text-color: #ebdbb2;
+	--input-border-color: #665c54;
+	--input-focus-border-color: #fabd2f;
+
+	--button-background: #504945;
+	--button-text-color: #ebdbb2;
+	--button-border-color: #665c54;
+	--button-hover-background: #fabd2f;
 }

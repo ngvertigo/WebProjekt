@@ -190,5 +190,29 @@
     "description": "Exklusive Rüstungsteile mit besonderen Boni.",
     "price": 70.00,
     "image": "weapons/hose.png"
+  },
+  {
+    "id": 25,
+    "name": "Schwalbe",
+    "category": "Zaubertrank",
+    "description": "Stellt über einen bestimmten Zeitraum kontinuierlich Vitalität (Lebenspunkte) wieder her.(Warnung: Sollte nur von Hexern konsumiert werden!)",
+    "price": 59.00,
+    "image": "weapons/zaubertrank.png"
+  },
+  {
+    "id": 26,
+    "name": "Donner",
+    "category": "Zaubertrank",
+    "description": "Erhöht den Angriffsschaden für eine bestimmte Zeit.(Warnung: Sollte nur von Hexern konsumiert werden!)",
+    "price": 59.00,
+    "image": "weapons/zaubertrank.png"
+  },
+  {
+    "id": 27,
+    "name": "Katze",
+    "category": "Zaubertrank",
+    "description": "Ermöglicht es, in völliger Dunkelheit zu sehen.(Warnung: Sollte nur von Hexern konsumiert werden!)",
+    "price": 59.00,
+    "image": "weapons/zaubertrank.png"
   }
 ]
