@@ -22,7 +22,6 @@
         <p class="intro-text">Lerne die Köpfe hinter dem Witcher 3 Item Shop kennen.</p>
     </section>
 
-    <!-- Steckbriefe -->
     <div class="wiki-main-section">
 <?php include "assets/php/script_about.php" ?> 
     </div>

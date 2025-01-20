@@ -11,7 +11,6 @@
 - Fix title alignment to center (on some pages)
 - Fix responsive resizing
 - WCAG2.1 compliance => WAVE Evaluation Tool Browser Addon(!)
-- Fill items.json file with items
 
 - WAITING:
 - sitemap.xml -> generate 
