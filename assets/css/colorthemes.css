@@ -80,6 +80,16 @@
 	--button-text-color: #333333;
 	--button-border-color: #cccccc;
 	--button-hover-background: #007acc;
+
+	--footer-text-color: #333333;
+	--footer-border-color: #cccccc;
+	--footer-accent-color: #007acc;
+	--footer-input-background: #f9f9f9;
+	--footer-input-text-color: #333333;
+	--footer-button-background: #e8e8e8;
+	--footer-button-text-color: #333333;
+	--footer-heading-font: 'Cinzel', serif;
+
 }
 
 [theme="dark"] {
@@ -120,6 +130,16 @@
 	--button-text-color: #e0e0e0;
 	--button-border-color: #616161;
 	--button-hover-background: #ffa726;
+
+	--footer-text-color: #e0e0e0;
+	--footer-border-color: #616161;
+	--footer-accent-color: #ffa726;
+	--footer-input-background: #1f1f1f;
+	--footer-input-text-color: #e0e0e0;
+	--footer-button-background: #333333;
+	--footer-button-text-color: #e0e0e0;
+	--footer-heading-font: 'Cinzel', serif;
+
 }
 
 
@@ -165,6 +185,15 @@ The colors maintain a 4.5:1 contrast ratio, complying with WCAG 2.1 | Level AA.
 	--button-text-color: #f8f8f2;
 	--button-border-color: #44475a;
 	--button-hover-background: #ff79c6;
+
+	--footer-text-color: #f8f8f2;
+	--footer-border-color: #6272a4;
+	--footer-accent-color: #ff79c6;
+	--footer-input-background: #44475a;
+	--footer-input-text-color: #f8f8f2;
+	--footer-button-background: #6272a4;
+	--footer-button-text-color: #f8f8f2;
+	--footer-heading-font: 'Cinzel', serif;
 }
 
 [theme="barrierefrei"] {
@@ -198,4 +227,13 @@ The colors maintain a 4.5:1 contrast ratio, complying with WCAG 2.1 | Level AA.
 	--button-text-color: #ebdbb2;
 	--button-border-color: #665c54;
 	--button-hover-background: #fabd2f;
+
+	--footer-text-color: #ebdbb2;
+	--footer-border-color: #665c54;
+	--footer-accent-color: #fabd2f;
+	--footer-input-background: #3c3836;
+	--footer-input-text-color: #ebdbb2;
+	--footer-button-background: #504945;
+	--footer-button-text-color: #ebdbb2;
+	--footer-heading-font: 'Cinzel', serif;
 }
