@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx" data-theme="Dark">
+<html lang="de" data-theme="Dark">
 <head>
     <title>Team | The Witcher 3</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">

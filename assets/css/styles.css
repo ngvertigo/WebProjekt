@@ -793,3 +793,11 @@ footer {
 }
 
 /* END ABOUT.PHP */
+
+/* format json */
+pre {
+    white-space: pre-wrap;
+    /* Ermöglicht Zeilenumbrüche innerhalb von <pre>-Tags */
+    word-wrap: break-word;
+    /* Für ältere Browser-Kompatibilität */
+}

@@ -17,12 +17,16 @@ foreach ($articles as $art) {
 
     if ($art['type'] === 'p') {
         // Render p
+        echo '<pre>';
         echo '<p class="wiki-article-p">' . htmlspecialchars($art['content']) . '</p>';
+        echo '</pre>';
     } elseif ($art['type'] === 'ul' && isset($art['content']['li']) && is_array($art['content']['li'])) {
         // Render ul
         echo '<ul class="wiki-ul">';
         foreach ($art['content']['li'] as $listItem) {
+            echo '<pre>';
             echo '<li class="wiki-ul-li">' . htmlspecialchars($listItem['text']) . '</li>';
+            echo '</pre>';
         }
         echo '</ul>';
     }
