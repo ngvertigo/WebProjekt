@@ -1053,3 +1053,183 @@ pre {
 }
 
 /* shop-style-end */
+
+/* warenkorb */
+/* Styling für den Warenkorb-Bereich */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    background-color: var(--statusline-bg1);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.cart-table th,
+.cart-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.cart-table th {
+    background-color: var(--statusline-bg2);
+    color: var(--text-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.cart-table td {
+    color: var(--text-color);
+    vertical-align: middle;
+}
+
+.cart-table tbody tr:hover {
+    background-color: var(--statusline-bg3);
+}
+
+.cart-table .text-right {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Zwischensumme */
+#subtotal {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+/* Aktionen */
+.cart-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.cart-actions .button {
+    background-color: var(--footer-button-background);
+    color: var(--footer-button-text-color);
+    border: none;
+    border-radius: 4px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cart-actions .button:hover {
+    background-color: var(--accent-color);
+    transform: scale(1.05);
+}
+
+/* Dynamisch generierte Einträge */
+#cart-items tr {
+    transition: background-color 0.3s ease;
+}
+
+#cart-items tr:hover {
+    background-color: var(--statusline-bg3);
+}
+
+/* Styling für Eingabefelder (z. B. Anzahl in der Tabelle) */
+.cart-table input[type="number"] {
+    width: 60px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--statusline-bg2);
+    color: var(--text-color);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cart-table input[type="number"]:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 5px var(--accent-color);
+    outline: none;
+}
+
+/* Styling für Buttons in der Tabelle (z. B. Entfernen-Button) */
+.cart-table button {
+    background-color: var(--footer-button-background);
+    color: var(--footer-button-text-color);
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cart-table button:hover {
+    background-color: var(--accent-color);
+    transform: scale(1.05);
+}
+
+/* Styling für das Textfeld im Footer */
+.cart-actions .button,
+.cart-table button {
+    font-family: inherit;
+    /* Konsistenter Font */
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cart-actions .button:hover {
+    transform: scale(1.05);
+    background-color: var(--accent-color);
+}
+
+/* Subtile Anpassung für den Tabellen-Input */
+.cart-table td input {
+    height: 2.5rem;
+    /* Etwas höher für bessere Lesbarkeit */
+    margin: 0.2rem 0;
+    /* Leichter Abstand */
+}
+
+/* Styling für die Anzahl-Eingabefelder mit Plus-/Minus-Knöpfen */
+.cart-table input[type="number"] {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    position: relative;
+    width: 80px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--statusline-bg2);
+    color: var(--text-color);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cart-table input[type="number"]::-webkit-inner-spin-button,
+.cart-table input[type="number"]::-webkit-outer-spin-button {
+    opacity: 1;
+    cursor: pointer;
+    width: 1.5rem;
+    height: 100%;
+    background-color: var(--footer-button-background);
+    border: 1px solid var(--border-color);
+    border-radius: 0;
+    transition: background-color 0.3s ease;
+}
+
+.cart-table input[type="number"]::-webkit-inner-spin-button:hover,
+.cart-table input[type="number"]::-webkit-outer-spin-button:hover {
+    background-color: var(--accent-color);
+}
