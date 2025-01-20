@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de" data-theme="gruvbox">
     <head>
         <?php
         $title = "Wiki | The Witcher 3";

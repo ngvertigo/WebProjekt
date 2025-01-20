@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx" data-theme="Dark">
+<html lang="de" data-theme="gruvbox">
 <!-- VALIDATED -->
 
 <head>

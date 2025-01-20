@@ -3,9 +3,9 @@
     <div class="footer-container">
         <!-- Newsletter -->
         <div class="footer-section newsletter">
-            <h2>Subscribe to Our Newsletter</h2>
+            <h2>Abonniere unseren Newsletter!</h2>
             <form action="#" method="post" class="newsletter-form">
-                <input class="type-input" type="email" name="email" placeholder="Enter your raven's destination" required>
+                <input class="type-input" type="email" name="email" placeholder="ihre.email@example.com" required>
                 <button id="footer-sub-button" type="submit">Abonnieren</button>
             </form>
         </div>
@@ -27,7 +27,7 @@
 
         <!-- Social Media -->
         <div class="footer-section social-media">
-            <h2>Socials</h2>
+            <h2>Soziale Medien</h2>
             <ul>
                 <!-- Fix Redirection Routing -->
                 <li><a href="facebook.com" aria-label="Facebook"><img alt="Facebook link" class="icon-facebook"></a></li>

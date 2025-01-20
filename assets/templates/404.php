@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html id="page404" theme="">
+<html id="page404" data-theme="gruvbox" lang="de">
     <head>
         <?php
-        $title = "Error 404 - Page not found";
+        $title = "Fehler 404 - Seite nicht gefunden";
         include "assets/templates/head.php";
         ?>
     </head>
     <body>
         <div>
-            <h1>404 - Not Found</h1>
-            <p>The page you are looking for seems to be lost in the wilderness.</p>
-            <a href="/">Return to the Path</a>
+            <h1>404 - Nicht Gefunden</h1>
+            <p>Die gesuchte Seite existiert nicht.</p>
+            <a href="/">Zurück zur Startseite.</a>
         </div>
     </body>
 </html>
