@@ -521,7 +521,7 @@ footer {
     font-size: 0.9rem;
 }
 
-.products-list-section {
+#products-list-section {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 1.5rem;

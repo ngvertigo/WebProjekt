@@ -6,7 +6,7 @@
         $keywords = "Shop";
         $desc = "Shop";
         include "assets/templates/head.php"; ?>
-        <script src="/assets/js/wk.js" defer></script>
+        <script src="/assets/js/wk.js"></script>
     </head>
     <body>
         <?php include "assets/templates/nav.php"; ?>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
 
-                <div class="products-list-section">
+                <div id="products-list-section">
                     <?php include "assets/php/script_shop.php"; ?>
                 </div>
             </div>

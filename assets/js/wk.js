@@ -1,6 +1,7 @@
 // Warenkorb-Daten aus localStorage laden
 function loadCart() {
-    return JSON.parse(localStorage.getItem('cart')) || [];
+    const cart = localStorage.getItem('cart');
+    return cart ? JSON.parse(cart) : [];
 }
 
 // Warenkorb-Daten speichern
@@ -21,7 +22,7 @@ function addToCart(itemId, name, price) {
         cart.push({
             id: itemId,
             name: name,
-            price: price,
+            price: parseFloat(price),
             quantity: 1
         });
     }
@@ -30,7 +31,7 @@ function addToCart(itemId, name, price) {
     alert(`${name} wurde zum Warenkorb hinzugefügt!`);
 }
 
-// Warenkorb anzeigen (optional)
+// Warenkorb anzeigen
 function displayCart() {
     const cart = loadCart();
     const cartContainer = document.getElementById('cart-items');
@@ -53,57 +54,51 @@ function displayCart() {
         cartContainer.appendChild(row);
     });
 
-	if (!cart.length) {
-    document.getElementById('cart-items').innerHTML = '<tr><td colspan="5">Der Warenkorb ist leer.</td></tr>';
-}
-
+    if (cart.length === 0) {
+        cartContainer.innerHTML = '<tr><td colspan="5">Der Warenkorb ist leer.</td></tr>';
+    }
 
     subtotalElement.textContent = `${subtotal.toFixed(2)} €`;
 }
 
-// Initiales Laden des Warenkorbs
 document.addEventListener('DOMContentLoaded', () => {
-    displayCart();
+    // Check if the current page contains the cart-items element
+    const cartContainer = document.getElementById('cart-items');
+    if (cartContainer) {
+        // If the element exists, display the cart
+        displayCart();
 
-    // Event-Listener für Mengenänderung
-    document.addEventListener('input', (e) => {
-        if (e.target.classList.contains('quantity-input')) {
-            const cart = loadCart();
-            const itemId = parseInt(e.target.dataset.id);
-            const item = cart.find(i => i.id === itemId);
-            if (item) {
-                item.quantity = Math.max(1, parseInt(e.target.value, 10));
-                saveCart(cart);
-                displayCart();
+        // Event listener for quantity changes
+        cartContainer.addEventListener('input', (event) => {
+            if (event.target.classList.contains('quantity-input')) {
+                const itemId = event.target.getAttribute('data-id');
+                const newQuantity = parseInt(event.target.value, 10);
+                updateCartItemQuantity(itemId, newQuantity);
             }
-        }
-    });
-
-    // Event-Listener für Entfernen
-    document.addEventListener('click', (e) => {
-        if (e.target.classList.contains('remove-button')) {
-            const cart = loadCart();
-            const itemId = parseInt(e.target.dataset.id);
-            const updatedCart = cart.filter(i => i.id !== itemId);
-            saveCart(updatedCart);
-            displayCart();
-        }
-    });
-
-    // Event-Listener für alle "add-to-cart-button"  ?? in php??
-    document.querySelectorAll('.add-to-cart-button').forEach(button => {
-        button.addEventListener('click', () => {
-            const itemId = parseInt(button.dataset.id);
-            const name = button.dataset.name;
-            const price = parseFloat(button.dataset.price);
-
-            // Artikel in den Warenkorb hinzufügen
-            addToCart(itemId, name, price);
         });
-    });
 
-	window.addEventListener('storage', () => {
-		displayCart();
-    });
+        // Event listener for item removal
+        cartContainer.addEventListener('click', (event) => {
+            if (event.target.classList.contains('remove-button')) {
+                const itemId = event.target.getAttribute('data-id');
+                removeFromCart(itemId);
+            }
+        });
+    }
+
+    // Existing code for handling add-to-cart buttons
+    const productContainer = document.getElementById('products-list-section');
+    if (productContainer) {
+        productContainer.addEventListener('click', (event) => {
+            if (event.target.classList.contains('add-to-cart-button')) {
+                const button = event.target;
+                const itemId = button.getAttribute('data-id');
+                const name = button.getAttribute('data-name');
+                const price = parseFloat(button.getAttribute('data-price'));
+
+                addToCart(itemId, name, price);
+            }
+        });
+    }
 });
 
