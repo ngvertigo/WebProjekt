@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" data-theme="Dark">
+<html lang="de" data-theme="barrierefrei">
 <!-- VALIDATED -->
 
 <head>

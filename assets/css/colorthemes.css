@@ -119,3 +119,26 @@ The colors maintain a 4.5:1 contrast ratio, complying with WCAG 2.1 | Level AA.
 	--visual-yellow: #574833;
 	--current-word-bg: #45403d;
 }
+
+[theme="barrierefrei"] {
+	/* Gruvbox Dark Theme */
+	--primary-background: #32302f;
+	--background-nav: #3c3836;
+	--background-footer: #504945;
+	--text-color: #ebdbb2;
+	--link-hover: #fabd2f;
+	--border-color: #665c54;
+	--theme-toggle-icon: #665c54;
+	--statusline-bg1: #3c3836;
+	--statusline-bg2: #46413e;
+	--statusline-bg3: #5b534d;
+
+	--diff-green: #3d4220;
+	--diff-red: #472322;
+	--diff-blue: #0f3a42;
+	--visual-green: #424a3e;
+	--visual-red: #543937;
+	--visual-blue: #404946;
+	--visual-yellow: #574833;
+	--current-word-bg: #45403d;
+}

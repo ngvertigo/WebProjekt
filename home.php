@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" theme="dracula">
+<html lang="de" theme="barrierefrei">
   <!-- Metainformation about the Page  -->
     <head>
         <?php

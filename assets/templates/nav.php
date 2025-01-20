@@ -14,7 +14,7 @@
             <?php
             // dynamically add themes to dropdown menu
             $themes = [
-                "light", "dark", "dracula", "gruvbox"
+                "light", "dark", "dracula", "barrierefrei"
             ];
 
             foreach($themes as $theme) {

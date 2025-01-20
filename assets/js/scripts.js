@@ -19,7 +19,7 @@ function switch_theme(whichtheme) {
     case "light":
     case "dark":
     case "dracula":
-    case "gruvbox":
+    case "barrierefrei":
         elem.setAttribute("theme", whichtheme);
         sessionStorage.setItem("theme", whichtheme);
         break;

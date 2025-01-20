@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" data-theme="gruvbox">
+<html lang="de" data-theme="barrierefrei">
 <head>
     <title>Barrierefreiheit | The Witcher 3</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
