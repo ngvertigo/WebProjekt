@@ -95,7 +95,7 @@
             <article class="wiki-article">
                 <h2 class="wiki-article-h">7. Kontakt</h2>
                 <p class="wiki-article-p">Bei Fragen zur Verarbeitung Ihrer Daten kontaktieren Sie uns bitte unter:<br>
-                E-Mail: </p>
+                E-Mail: lambert@wolfsschule-witcher.org </p>
             </article>
 
             <article class="wiki-article">
