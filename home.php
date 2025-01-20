@@ -15,10 +15,14 @@
       <!-- Navbar  -->
       <?php include "assets/templates/nav.php"; ?>
 
-        <main>
-            <section>
-                <h1 class="main-headline">Willkommen im Witcher 3 Item Shop</h1>
-            </section>
+	<main>
+<div class="hero-image">
+	    <section>
+		
+			<h1 class="main-headline">Willkommen im Witcher 3 Item Shop</h1>
+	    </section>
+
+		</div>
           <article class="main-article">
               <h2 class="main-sub-headline">News</h2>
               <p>
