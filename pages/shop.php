@@ -7,34 +7,6 @@
         $desc = "Shop";
         include "assets/templates/head.php"; ?>
         <script src="/assets/js/wk.js"></script>
-        <style>
-            .search-filter-section {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 1rem;
-                align-items: flex-start;
-                margin-bottom: 1.5rem;
-            }
-
-            .form-search {
-                flex: 1 1 auto;
-                min-width: 300px;
-            }
-
-            .filters-container {
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-                flex: 1 1 auto;
-                min-width: 200px;
-            }
-
-            .filter-group-category,
-            .filter-group-sort {
-                display: flex;
-                flex-direction: column;
-            }
-        </style>
     </head>
     <body>
         <?php include "assets/templates/nav.php"; ?>
