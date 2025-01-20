@@ -16,7 +16,6 @@
     <?php include "assets/templates/nav.php"; ?>
 
 
-<main> 
 <main>
     <section>
         <h1 class="main-headline">Barrierefreiheitseinstellungen</h1>
@@ -64,8 +63,6 @@
             <button type="submit">Einstellungen speichern</button>
         </form>
     </article>
-</main>
-
 </main>
 
 <?php include "assets/templates/footer.php" ?>

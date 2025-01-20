@@ -232,8 +232,8 @@ nav>#nav-link-container>a:hover {
 #page404 {
     & body {
         margin: 0;
-        background-color: var(--404-primary-background);
-        color: var(--404-text-color);
+        background-color: var(--primary-background);
+        color: var(--text-color);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -242,16 +242,16 @@ nav>#nav-link-container>a:hover {
     }
 
     & div {
-        border: 1px solid var(--404-border-color);
+        border: 1px solid var(--border-color);
         padding: 40px;
         max-width: 600px;
         width: 90%;
     }
 
     & h1 {
-        font-size: var(--404-header-font-size);
+        font-size: var(--header-font-size);
         margin-bottom: 20px;
-        color: var(--404-accent-color);
+        color: var(--accent-color);
     }
 
     & p {
@@ -259,15 +259,15 @@ nav>#nav-link-container>a:hover {
     }
 
     & a {
-        color: var(--404-text-color);
+        color: var(--text-color);
         text-decoration: none;
-        border-bottom: 1px solid var(--404-border-color);
+        border-bottom: 1px solid var(--border-color);
         padding-bottom: 2px;
     }
 
     & a:hover {
         color: var(--);
-        background-color: var(--404-accent-color);
+        background-color: var(--accent-color);
     }
 }
 
