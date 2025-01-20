@@ -99,7 +99,7 @@
             </article>
 
             <article class="wiki-article">
-                <p class="wiki-article-p">Diese Datenschutzerklärung wurde zuletzt am 18. Januar 2025 aktualisiert.</p>
+                <p class="wiki-article-p">Diese Datenschutzerklärung wurde zuletzt am 20. Januar 2025 aktualisiert.</p>
             </article>
         </div>
     </main>
