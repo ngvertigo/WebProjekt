@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" theme="gruvbox">
+<html lang="de" theme="dracula">
   <!-- Metainformation about the Page  -->
     <head>
         <?php
@@ -37,20 +37,9 @@
     Ein Alchemist in Beauclair behauptet, ein Heilmittel gegen die Weiße Fäule entwickelt zu haben, eine Seuche, die in den letzten Jahren große Teile der Ernte in Toussaint und Velen zerstört hat. Die königliche Akademie untersucht die Wirkung, doch Skepsis bleibt, da frühere Versuche gescheitert sind.
 </p>
           </article>
+          
           <article class="main-article">
-              <h2 class="main-sub-headline">Shop Caroussel (NEW, TOP)</h2>
-              <p>Ea aut velit ea. Inventore facere aut et. Harum occaecati qui voluptatibus sunt ut voluptatem debitis. Ut enim a facere necessitatibus mollitia mollitia nemo maxime. Quia libero voluptatem soluta.
-
-                  Quibusdam enim nemo in quo pariatur modi omnis. Sunt ut et aut repellat architecto aut. Officia consectetur quis laboriosam.
-
-                  Aut et omnis quo soluta atque sint nemo incidunt. Nihil ut libero velit harum. Illo qui omnis saepe. Animi ipsum aliquid iste cumque assumenda sequi.
-
-                  Aut non quo minus commodi reiciendis nam et. Qui ut qui sint sunt corporis voluptates quae veniam. Voluptatem nisi nostrum sint. Et necessitatibus sed doloremque voluptatem est et. Exercitationem eligendi molestiae cumque illum sint et molestiae beatae. Deleniti voluptatem suscipit quidem nam iusto saepe.
-
-                  Ipsum consequatur vero dolore ullam saepe nesciunt doloremque. Nostrum impedit velit eos. Rerum est aliquid et. Reiciendis et qui magnam. Culpa sed aut sed excepturi doloremque.</p>
-          </article>
-          <article class="main-article">
-              <h2 class="main-sub-headline">Kürzlich gekauft</h2>
+              <h2 class="main-sub-headline">Top Vorschläge</h2>
               <p>Ea aut velit ea. Inventore facere aut et. Harum occaecati qui voluptatibus sunt ut voluptatem debitis. Ut enim a facere necessitatibus mollitia mollitia nemo maxime. Quia libero voluptatem soluta.
 
                   Quibusdam enim nemo in quo pariatur modi omnis. Sunt ut et aut repellat architecto aut. Officia consectetur quis laboriosam.
@@ -63,15 +52,7 @@
           </article>
           <article class="main-article">
               <h2 class="main-sub-headline">Angebote und Rabatte</h2>
-              <p>Ea aut velit ea. Inventore facere aut et. Harum occaecati qui voluptatibus sunt ut voluptatem debitis. Ut enim a facere necessitatibus mollitia mollitia nemo maxime. Quia libero voluptatem soluta.
-
-                  Quibusdam enim nemo in quo pariatur modi omnis. Sunt ut et aut repellat architecto aut. Officia consectetur quis laboriosam.
-
-                  Aut et omnis quo soluta atque sint nemo incidunt. Nihil ut libero velit harum. Illo qui omnis saepe. Animi ipsum aliquid iste cumque assumenda sequi.
-
-                  Aut non quo minus commodi reiciendis nam et. Qui ut qui sint sunt corporis voluptates quae veniam. Voluptatem nisi nostrum sint. Et necessitatibus sed doloremque voluptatem est et. Exercitationem eligendi molestiae cumque illum sint et molestiae beatae. Deleniti voluptatem suscipit quidem nam iusto saepe.
-
-                  Ipsum consequatur vero dolore ullam saepe nesciunt doloremque. Nostrum impedit velit eos. Rerum est aliquid et. Reiciendis et qui magnam. Culpa sed aut sed excepturi doloremque.</p>
+              <p>Zurzeit gibt es leider keine Angebote und Rabatte.</p>
           </article>
       </main>
 
