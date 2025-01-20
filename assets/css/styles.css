@@ -941,4 +941,115 @@ pre {
     text-align: center;
 }
 
+
+
+.shop-section {
+    padding: 2rem;
+    background-color: var(--primary-background);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.main-headline {
+    font-family: "Witcher", serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px var(--link-hover);
+}
+
+.search-filter-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-search {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.type-input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--footer-input-background);
+    color: var(--footer-input-text-color);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.type-input::placeholder {
+    color: var(--footer-input-text-color);
+    opacity: 0.7;
+}
+
+.type-input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 5px var(--accent-color);
+    outline: none;
+}
+
+.footer-button {
+    background-color: var(--footer-button-background);
+    color: var(--footer-button-text-color);
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.footer-button:hover {
+    background-color: var(--accent-color);
+    transform: scale(1.05);
+}
+
+.filters-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.label-category,
+.label-sort {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.select-category,
+.select-sort {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 2px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--statusline-bg1);
+    color: var(--text-color);
+    transition: border-color 0.3s ease;
+}
+
+.select-category:hover,
+.select-sort:hover {
+    border-color: var(--accent-color);
+}
+
 /* shop-style-end */
