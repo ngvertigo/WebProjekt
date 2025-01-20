@@ -36,11 +36,11 @@
             </article>
 
             <article class="wiki-article">
-                <h2 class="wiki-article-h">Max Mustermann</h2>
+                <h2 class="wiki-article-h">Lambert Wolfseye</h2>
                 <p class="wiki-article-p">Witcher 3 Ingame Shop<br>
-                Straße ...<br>
-                Stadt...<br>
-                E-Mail: </p>
+                Kaer Morhen Straße 3<br>
+                72213 Weißgarten<br>
+                E-Mail: lambert@wolfsschule-witcher.org </p>
             </article>
 
             <article class="wiki-article">
@@ -95,7 +95,7 @@
             <article class="wiki-article">
                 <h2 class="wiki-article-h">7. Kontakt</h2>
                 <p class="wiki-article-p">Bei Fragen zur Verarbeitung Ihrer Daten kontaktieren Sie uns bitte unter:<br>
-                E-Mail: </p>
+                E-Mail: lambert@wolfsschule-witcher.org </p>
             </article>
 
             <article class="wiki-article">
