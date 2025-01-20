@@ -1,14 +1,13 @@
 <?php
 $request_uri = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 
-// Handle search queries
-
 // Routes
 switch ($request_uri) {
     case "/":
         include "home.php";
         break;
     case "/shop":
+    case "/shop.php":
         include "pages/shop.php";
         break;
     case "/wiki":
@@ -41,3 +40,4 @@ switch ($request_uri) {
         break;
 }
 ?>
+

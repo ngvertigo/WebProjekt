@@ -18,8 +18,8 @@
             <div class="shop-section">
                 <h1 class="main-headline">Witcher 3 Item Shop</h1>
                 <div class="search-filter-section">
-                    <form class="form-search" action="#" method="get">
-                        <input class="type-input" type="text" name="q" placeholder="Nach Gegenständen suchen...">
+                    <form class="form-search" action="shop" method="get">
+                        <input class="type-input" type="text" name="item-search" placeholder="Nach Gegenständen suchen...">
                         <button class="footer-button" type="submit">Suchen</button>
                     </form>
                     <div class="filters-container">
