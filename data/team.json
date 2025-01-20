@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Nils",
+        "description": "Rolle: Gründer\nStärken: Monsterjagd, Schwertkampf, Alchemie\nHobbys: Reisen, Gwint spielen",
+        "image": "assets/images/team/nils.png"
+    },
+    {
+        "name": "Michael",
+        "description": "Rolle: Alchemist\nStärken: Heiltränke, Magie, diplomatisches Geschick\nHobbys: Lesen, Kräuterkunde",
+        "image": "assets/images/team/michael.png"
+    },
+    {
+        "name": "Leon",
+        "description": "Rolle: Strategischer Planer\nStärken: Taktisches Denken, Problemlösung, analytische Fähigkeiten\nHobbys: Schach spielen, historische Schlachten studieren, Wandern",
+        "image": "assets/images/team/leon.png"
+    },
+    {
+        "name": "Sven",
+        "description": "Rolle: Kommunikationsexperte\nStärken: Verhandlungsgeschick, Empathie, Netzwerken\nHobbys: Fremdsprachen lernen, kulturelle Veranstaltungen besuchen, Kochen",
+        "image": "assets/images/team/sven.png"
+    }
+]
+

@@ -742,3 +742,54 @@ footer {
 }
 
 /* END BARRIEREFREIHEIT.PHP */
+
+/* about.php */
+.person {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.person img {
+    border-radius: 50%;
+    border: 2px solid var(--accent-color);
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.person-info {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+    padding: 15px;
+    flex: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.person-info h2 {
+    color: var(--accent-color);
+    margin-top: 0;
+}
+
+.person-info p {
+    color: var(--text-color);
+}
+
+@media (max-width: 600px) {
+    .person {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .person img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .person-info {
+        padding: 10px;
+    }
+}
+
+/* END ABOUT.PHP */

@@ -24,45 +24,7 @@
 
     <!-- Steckbriefe -->
     <div class="wiki-main-section">
-        <!-- Steckbrief 1 -->
-        <article class="wiki-article">
-            <h2 class="wiki-article-h">Nils</h2>
-            <p class="wiki-article-p">
-                <strong>Rolle:</strong> Gründer<br>
-                <strong>Stärken:</strong> Monsterjagd, Schwertkampf, Alchemie<br>
-                <strong>Hobbys:</strong> Reisen, Gwint spielen
-            </p>
-        </article>
-
-        <!-- Steckbrief 2 -->
-        <article class="wiki-article">
-            <h2 class="wiki-article-h">Michael</h2>
-            <p class="wiki-article-p">
-                <strong>Rolle:</strong> Alchemistin<br>
-                <strong>Stärken:</strong> Heiltränke, Magie, diplomatisches Geschick<br>
-                <strong>Hobbys:</strong> Lesen, Kräuterkunde
-            </p>
-        </article>
-
-        <!-- Steckbrief 3 -->
-        <article class="wiki-article">
-            <h2 class="wiki-article-h">Sven</h2>
-            <p class="wiki-article-p">
-                <strong>Rolle:</strong> Marketing & Öffentlichkeitsarbeit<br>
-                <strong>Stärken:</strong> Redekunst, Kreativität, Musik<br>
-                <strong>Hobbys:</strong> Poesie schreiben, Lieder singen
-            </p>
-        </article>
-
-        <!-- Steckbrief 4 -->
-        <article class="wiki-article">
-            <h2 class="wiki-article-h">Leon</h2>
-            <p class="wiki-article-p">
-                <strong>Rolle:</strong> Waffenexperte<br>
-                <strong>Stärken:</strong> Schmiedekunst, Zwergenwaffen, Strategie<br>
-                <strong>Hobbys:</strong> Kartenspiele, Bierbrauen
-            </p>
-        </article>
+<?php include "assets/php/script_about.php" ?> 
     </div>
 </main>
 
