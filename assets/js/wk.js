@@ -9,6 +9,25 @@ function saveCart(cart) {
     localStorage.setItem('cart', JSON.stringify(cart));
 }
 
+// Update the quantity of an item in the cart
+function updateCartItemQuantity(itemId, newQuantity) {
+    const cart = loadCart();
+    const item = cart.find(product => product.id === itemId);
+    if (item) {
+        item.quantity = newQuantity > 0 ? newQuantity : 1; // Ensure quantity is at least 1
+        saveCart(cart);
+        displayCart();
+    }
+}
+
+// Remove an item from the cart
+function removeFromCart(itemId) {
+    let cart = loadCart();
+    cart = cart.filter(product => product.id !== itemId);
+    saveCart(cart);
+    displayCart();
+}
+
 // Artikel in den Warenkorb hinzufügen
 function addToCart(itemId, name, price) {
     const cart = loadCart();
