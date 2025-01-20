@@ -558,6 +558,12 @@ footer {
     margin: 0.5rem 0;
 }
 
+.product-description {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin: 0.5rem 0;
+}
+
 .product-button {
     background-color: var(--footer-button-background);
     color: var(--footer-button-text-color);
@@ -934,5 +940,5 @@ pre {
     border-radius: 5px;
     text-align: center;
 }
-/* shop-style-end */
 
+/* shop-style-end */

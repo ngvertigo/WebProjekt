@@ -17,6 +17,7 @@ foreach($products as $prod) {
     echo '<h2 class="product-name">' . htmlspecialchars($prod['name']) . '</h2>';
     //TODO echo '<p class="">' . htmlspecialchars($prod['beschreibung']) . '</p>';
     echo '<p class="product-price">Preis: €' . number_format($prod['price'], 2, ',', '.') . '</p>';
+    echo '<p class="product-description">' . htmlspecialchars($prod['description']) . '"</p>';
    echo '<button class="add-to-cart-button product-button" data-id="' . $prod['id'] . '" data-name="' . htmlspecialchars($prod['name']) . '" data-price="' . $prod['price'] . '">Zum Warenkorb hinzufügen</button>';
     echo '</article>';
 }
