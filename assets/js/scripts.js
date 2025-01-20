@@ -28,3 +28,23 @@ function switch_theme(whichtheme) {
     }
 }
 
+// Apply font style on page load
+document.addEventListener("DOMContentLoaded", () => {
+    if (localStorage.getItem("fontStyle") === "dyslexic") {
+        document.body.classList.add("dyslexic");
+        document.getElementById("font-size").value = "dyslexic";
+    }
+});
+
+// Update font style and save preference
+function updateFontStyle() {
+    const fontSelect = document.getElementById("font-size");
+    const isDyslexic = fontSelect.value === "dyslexic";
+
+    // Toggle the class on the body element
+    document.body.classList.toggle("dyslexic", isDyslexic);
+
+    // Save the user's choice in localStorage
+    localStorage.setItem("fontStyle", isDyslexic ? "dyslexic" : "default");
+}
+

@@ -4,13 +4,21 @@
 
 /** BEGIN CUSTOM FONTS **/
 
+
+/** OpenDislexic **/
+@font-face {
+    font-family: "opendislexic";
+    src: url("/assets/fonts/od.woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /** Cinzel Font **/
 @font-face {
     font-family: "Cinzel";
     src: url("/assets/fonts/CinzelDecorative-Black.ttf");
     font-weight: normal;
     font-style: italic;
-    /** italic ??? **/
 }
 
 @font-face {
@@ -52,6 +60,10 @@
 }
 
 /** END CUSTOM FONTS **/
+
+body.dyslexic * {
+    font-family: "opendislexic" !important;
+}
 
 /** BEGIN BASE TAGS **/
 

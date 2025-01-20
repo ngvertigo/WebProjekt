@@ -22,14 +22,14 @@
     </section>
 
     <article class="main-article">
-        <form id="accessibility-settings-form" action="speichere_einstellungen.php" method="post">
+        <div id="accessibility-settings-form">
             <!-- Schriftgröße -->
-            <label for="font-size">Schriftgröße:</label>
-            <select id="font-size" name="font_size">
-                <option value="small">Klein</option>
-                <option value="medium" selected>Mittel</option>
-                <option value="large">Groß</option>
-            </select>
+            <label for="font-size">Dyslexie Schriftart:</label>
+<select id="font-size" name="font_size" onchange="updateFontStyle()">
+    <option value="dyslexic">Aktiviert</option>
+    <option value="default" selected>Deaktiviert</option>
+</select>
+
 
             <!-- Kontrastmodus -->
             <label for="contrast-mode">Kontrastmodus:</label>
@@ -38,30 +38,13 @@
                 <option value="high-contrast">Hoher Kontrast</option>
             </select>
 
-            <!-- Farbschema -->
-            <label for="color-scheme">Farbschema:</label>
-            <select id="color-scheme" name="color_scheme">
-                <option value="default" selected>Standard</option>
-                <option value="dark">Dunkel</option>
-                <option value="light">Hell</option>
-            </select>
-
-            <!-- Animationen -->
-            <label for="animations">Animationen:</label>
-            <select id="animations" name="animations">
-                <option value="enabled" selected>Aktiviert</option>
-                <option value="disabled">Deaktiviert</option>
-            </select>
-
             <!-- Screenreader-Unterstützung -->
             <label for="screenreader-support">Screenreader-Unterstützung:</label>
             <select id="screenreader-support" name="screenreader_support">
                 <option value="enabled" selected>Aktiviert</option>
                 <option value="disabled">Deaktiviert</option>
             </select>
-
-            <button type="submit">Einstellungen speichern</button>
-        </form>
+</div>
     </article>
 </main>
 
