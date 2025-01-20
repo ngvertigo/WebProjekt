@@ -100,4 +100,5 @@ Eltern und Erziehungsberechtigte brauchen sichere Zahlungsfunktionen, Informatio
   - Footer: Impressum/Datenschutz, Newsletter-Anmeldung, Social Media Links, Einstellungen-Barrierefreiheit
 
 **Barrierefreiheit**
-Personen mit Beeinträchtigungen benötigen eine barrierefreie Webseite, welche Screenreader unterstützt, anpassbare Schriftgrößen und Kontraste erlaubt und unterstützt. Sie wollen ebenfalls ihr Spielerlebnis und ihren Spielfortschritt verbessern und profitieren ebenfalls von einer übersichtlichen Wiki.
+ Personen mit Beeinträchtigungen benötigen eine barrierefreie Webseite, welche Screenreader unterstützt, anpassbare Schriftgrößen und Kontraste erlaubt und unterstützt. Sie wollen ebenfalls ihr Spielerlebnis und ihren Spielfortschritt verbessern und profitieren 
+ ebenfalls von einer übersichtlichen Wiki.
