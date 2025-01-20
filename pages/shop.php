@@ -50,7 +50,6 @@
                         <div class="filter-group-category">
                             <label class="label-category">Kategorie:</label>
                             <select class="select-category">
-                                <option class="option-category">Tränke</option>
                                 <option class="option-category">Waffen</option>
                                 <option class="option-category">Rüstungen</option>
                             </select>
