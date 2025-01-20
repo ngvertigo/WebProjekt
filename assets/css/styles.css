@@ -890,3 +890,49 @@ pre {
 }
 
 /* END HOME.PHP */
+
+
+/* shop-style */
+.search-filter-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-search {
+    flex: 1 1 auto;
+    min-width: 300px;
+}
+
+.filters-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex: 1 1 auto;
+    min-width: 200px;
+}
+
+.filter-group-category,
+.filter-group-sort {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#products-list-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+/* shop-style-end */
+
