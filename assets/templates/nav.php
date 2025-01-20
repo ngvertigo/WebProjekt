@@ -4,9 +4,18 @@
         <a href="/shop">Shop</a>
         <a href="/wiki">Wiki</a>
         <a href="/warenkorb">Warenkorb</a>
-        <form action="#" method="post" class="search-form">
-            <input class="type-input" type="text" name="search" placeholder="Suche eingeben..." required>
-        </form>
+        <form action="https://www.google.com/search" method="get" class="search-form" target="_blank">
+    <input
+        class="type-input"
+        type="text"
+        name="q"
+        placeholder="Suche eingeben..."
+        required
+    >
+    <input type="hidden" name="sitesearch" value="example.com">
+    <button type="submit" class="footer-button">Suchen</button>
+</form>
+
     </div>
     <div id="theme-menu">
         <span>Themes</span>
