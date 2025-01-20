@@ -9,6 +9,30 @@
   },
   {
     "id": 2,
+    "name": "Feline-Stahlschwert",
+    "category": "Waffen",
+    "description": "Teil der Katzenschule-Ausrüstung, optimiert für schnelle Angriffe.",
+    "price": 80.00,
+    "image": "weapons/stahlschwert.png"
+  },
+  {
+    "id": 3,
+    "name": "Viper-Stahlschwert",
+    "category": "Waffen",
+    "description": "Gehört zur Vipernschulenausrüstung, bietet Gift-Effekte.",
+    "price": 120.00,
+    "image": "weapons/stahlschwert.png"
+  },
+  {
+    "id": 4,
+    "name": "Hen Gaidth-Stahlschwert",
+    "category": "Waffen",
+    "description": "Mächtiges Schwert mit Lebensraub-Eigenschaft, erhältlich im DLC Blood and Wine.",
+    "price": 170.00,
+    "image": "weapons/stahlschwert.png"
+  },
+  {
+    "id": 5,
     "name": "Silberschwert",
     "category": "Waffen",
     "description": "Speziell gegen Monster.",
@@ -16,12 +40,155 @@
     "image": "weapons/silberschwert.png"
   },
   {
-    "id": 3,
+    "id": 6,
+    "name": "Feline-Silberschwert",
+    "category": "Waffen",
+    "description": "Ein Teil der Katzenschule-Ausrüstung, optimiert für schnellen und hohen Schaden gegen Monster.",
+    "price": 130.00,
+    "image": "weapons/silberschwert.png"
+  },
+  {
+    "id": 7,
+    "name": "Aerondight",
+    "category": "Waffen",
+    "description": "Legendäres Silberschwert, das mit jedem Treffer an Stärke gewinnt.",
+    "price": 730.00,
+    "image": "weapons/silberschwert.png"
+  },
+  {
+    "id": 8,
+    "name": "Griffin-Silberschwert",
+    "category": "Waffen",
+    "description": "Teil der Greifenschule-Ausrüstung, ideal für Zeichen-Builds.",
+    "price": 200.00,
+    "image": "weapons/silberschwert.png"
+  },
+  {
+    "id": 9,
     "name": "Armbrust",
     "category": "Waffen",
     "description": "Für Fernkampfangriffe.",
     "price": 25.00,
     "image": "weapons/armbrust.png"
+  },
+  {
+    "id": 10,
+    "name": "Elitenarmbrust der Skelliger",
+    "category": "Waffen",
+    "description": "Starke Armbrust mit hohem Grundschaden und guter Reichweite.",
+    "price": 250.00,
+    "image": "weapons/armbrust.png"
+  },
+  {
+    "id": 11,
+    "name": "Feline-Armbrust",
+    "category": "Waffen",
+    "description": "Gehört zur Katzenschule-Ausrüstung, leicht und schnell.",
+    "price": 125.00,
+    "image": "weapons/armbrust.png"
+  },
+  {
+    "id": 12,
+    "name": "Nilfgaardische Armbrust",
+    "category": "Waffen",
+    "description": "Eine ästhetische und leistungsstarke Armbrust.",
+    "price": 225.00,
+    "image": "weapons/armbrust.png"
+  },
+  {
+    "id": 13,
+    "name": "Brustpanzer",
+    "category": "Rüstung",
+    "description": "Einfacher Schutz.",
+    "price": 50.00,
+    "image": "weapons/brustpanzer.png"
+  },
+  {
+    "id": 14,
+    "name": "Feline-Rüstung",
+    "category": "Rüstung",
+    "description": "Teil der Katzenschule-Ausrüstung, für schnelle und agile Builds.",
+    "price": 150.00,
+    "image": "weapons/brustpanzer.png"
+  },
+  {
+    "id": 15,
+    "name": "Griffin-Rüstung",
+    "category": "Rüstung",
+    "description": "Unterstützt Zeichen-Nutzer durch Boni auf Magie-Effekte.",
+    "price": 250.00,
+    "image": "weapons/brustpanzer.png"
+  },
+  {
+    "id": 16,
+    "name": "Hen Gaidth-Rüstung",
+    "category": "Rüstung",
+    "description": "Legendäre Blutrote Rüstung.",
+    "price": 1150.00,
+    "image": "weapons/brustpanzer.png"
+  },
+  {
+    "id": 17,
+    "name": "Stahl-Handschuhe",
+    "category": "Rüstung",
+    "description": "Einfacher Schutz.",
+    "price": 40.00,
+    "image": "weapons/handschuhe.png"
+  },
+  {
+    "id": 18,
+    "name": "Feline-Handschuhe",
+    "category": "Rüstung",
+    "description": "Gehören zur Katzenschule-Ausrüstung.",
+    "price": 80.00,
+    "image": "weapons/handschuhe.png"
+  },
+  {
+    "id": 19,
+    "name": "Griffin-Handschuhe",
+    "category": "Rüstung",
+    "description": "eil der Greifenschule-Ausrüstung, für Zeichen-Builds.",
+    "price": 150.00,
+    "image": "weapons/handschuhe.png"
+  },
+  {
+    "id": 20,
+    "name": "Nilfgaardische Handschuhe",
+    "category": "Rüstung",
+    "description": "Handschuhe aus der Nilfgaard-Rüstungsreihe, elegant und defensiv.",
+    "price": 350.00,
+    "image": "weapons/handschuhe.png"
+  },
+  {
+    "id": 21,
+    "name": "Einfache Hose",
+    "category": "Rüstung",
+    "description": "Einfacher Schutz.",
+    "price": 70.00,
+    "image": "weapons/hose.png"
+  },
+  {
+    "id": 22,
+    "name": "Feline-Hose",
+    "category": "Rüstung",
+    "description": "Für agilen Nahkampf, Teil der Katzenschule-Ausrüstung.",
+    "price": 70.00,
+    "image": "weapons/hose.png"
+  },
+  {
+    "id": 23,
+    "name": "Griffin-Hose",
+    "category": "Rüstung",
+    "description": "Unterstützt Zeichen-Nutzer durch Boni auf Magie-Effekte.",
+    "price": 70.00,
+    "image": "weapons/hose.png"
+  },
+  {
+    "id": 24,
+    "name": "Töchter der Schwarzen Sonne-Hose",
+    "category": "Rüstung",
+    "description": "Exklusive Rüstungsteile mit besonderen Boni.",
+    "price": 70.00,
+    "image": "weapons/hose.png"
   }
-
 ]
