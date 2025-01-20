@@ -8,7 +8,6 @@
         include "assets/templates/head.php"; ?>
         <script src="/assets/js/wk.js"></script>
         <style>
-            /* Ensure the search bar and filter section don’t overlap */
             .search-filter-section {
                 display: flex;
                 flex-wrap: wrap;
