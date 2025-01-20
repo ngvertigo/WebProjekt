@@ -36,11 +36,11 @@
             </article>
 
             <article class="wiki-article">
-                <h2 class="wiki-article-h">Lambert Wolfseye</h2>
-                <p class="wiki-article-p">Witcher 3 Ingame Shop<br>
-                Kaer Morhen Straße 3<br>
-                72213 Weißgarten<br>
-                E-Mail: lambert@wolfsschule-witcher.org </p>
+                <h2 class="wiki-article-h">Betreiber der Webseite</h2>
+                <p class="wiki-article-p">Witcher 3 Item Shop GbR<br>
+                Adresse: Kaer Morhen Weg 123, 12345 Novigrad<br>
+                Telefon: +49 123 456789<br>
+                E-Mail: info@witcher3-itemshop.com </p>
             </article>
 
             <article class="wiki-article">
@@ -95,11 +95,11 @@
             <article class="wiki-article">
                 <h2 class="wiki-article-h">7. Kontakt</h2>
                 <p class="wiki-article-p">Bei Fragen zur Verarbeitung Ihrer Daten kontaktieren Sie uns bitte unter:<br>
-                E-Mail: lambert@wolfsschule-witcher.org </p>
+                E-Mail: info@witcher3-itemshop.com </p>
             </article>
 
             <article class="wiki-article">
-                <p class="wiki-article-p">Diese Datenschutzerklärung wurde zuletzt am 18. Januar 2025 aktualisiert.</p>
+                <p class="wiki-article-p">Diese Datenschutzerklärung wurde zuletzt am 20. Januar 2025 aktualisiert.</p>
             </article>
         </div>
     </main>
