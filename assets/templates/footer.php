@@ -27,7 +27,7 @@
 
         <!-- Social Media -->
         <div class="footer-section social-media">
-            <h2>Soziale Medien</h2>
+            <h2>Socials</h2>
             <ul>
                 <!-- Fix Redirection Routing -->
                 <li><a href="facebook.com" aria-label="Facebook"><img alt="Facebook link" class="icon-facebook"></a></li>

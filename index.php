@@ -1,4 +1,3 @@
-<!-- Simple Routing -->
 <?php
 $request_uri = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 
@@ -31,7 +30,8 @@ switch ($request_uri) {
         include "pages/kontakt.php";
         break;
     case "/sitemap":
-        include "pages/sitemap.xml";
+        header('Content-Type: application/xml; charset=utf-8');
+        readfile('pages/sitemap.xml');
         break;
     case "/barrierefreiheit":
         include "pages/barrierefreiheit.php";
@@ -40,5 +40,4 @@ switch ($request_uri) {
         include "assets/templates/404.php";
         break;
 }
-
 ?>

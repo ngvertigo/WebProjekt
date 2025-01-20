@@ -10,6 +10,11 @@ if ($articles === null && json_last_error() !== JSON_ERROR_NONE) {
   exit;
 }
 
+// Function to format text with **bold**
+function formatBoldText($text) {
+    return preg_replace('/\*\*(.*?)\*\*/', '<strong>$1</strong>', htmlspecialchars($text));
+}
+
 // Render wiki articles
 foreach ($articles as $art) {
     echo '<article class="wiki-article">';
@@ -18,14 +23,14 @@ foreach ($articles as $art) {
     if ($art['type'] === 'p') {
         // Render p
         echo '<pre>';
-        echo '<p class="wiki-article-p">' . htmlspecialchars($art['content']) . '</p>';
+        echo '<p class="wiki-article-p">' . formatBoldText($art['content']) . '</p>';
         echo '</pre>';
     } elseif ($art['type'] === 'ul' && isset($art['content']['li']) && is_array($art['content']['li'])) {
         // Render ul
         echo '<ul class="wiki-ul">';
         foreach ($art['content']['li'] as $listItem) {
             echo '<pre>';
-            echo '<li class="wiki-ul-li">' . htmlspecialchars($listItem['text']) . '</li>';
+            echo '<li class="wiki-ul-li">' . formatBoldText($listItem['text']) . '</li>';
             echo '</pre>';
         }
         echo '</ul>';
@@ -35,3 +40,4 @@ foreach ($articles as $art) {
 }
 
 ?>
+
