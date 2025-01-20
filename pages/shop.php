@@ -7,51 +7,6 @@
         $desc = "Shop";
         include "assets/templates/head.php"; ?>
         <script src="/assets/js/wk.js"></script>
-        <style>
-            /* Ensure the search bar and filter section don’t overlap */
-            .search-filter-section {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 1rem;
-                align-items: flex-start;
-                margin-bottom: 1.5rem;
-            }
-
-            .form-search {
-                flex: 1 1 auto;
-                min-width: 300px;
-            }
-
-            .filters-container {
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-                flex: 1 1 auto;
-                min-width: 200px;
-            }
-
-            .filter-group-category,
-            .filter-group-sort {
-                display: flex;
-                flex-direction: column;
-            }
-
-            /* Layout for products */
-            #products-list-section {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 1.5rem;
-                margin-top: 2rem;
-            }
-
-            .product-item {
-                border: 1px solid #ccc;
-                padding: 1rem;
-                border-radius: 5px;
-                text-align: center;
-                background-color: #f9f9f9;
-            }
-        </style>
     </head>
     <body>
         <?php include "assets/templates/nav.php"; ?>
