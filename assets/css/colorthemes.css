@@ -24,7 +24,8 @@
     --visual-green: #e3f7df;
     --visual-red: #f9e2e2;
     --visual-blue: #e3efff;
-    --visual-yellow: #fdf5d1;
+    /*--visual-yellow: #fdf5d1; ursprüngliches Gelb*/
+    --visual-yellow: #ebdbb2; 
     --current-word-bg: #f0f0f0;
 
 
